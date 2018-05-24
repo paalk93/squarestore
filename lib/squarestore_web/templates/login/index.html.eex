@@ -2,12 +2,15 @@
   <div class="sq-modal-content">
     <span class="sq-close-button" onclick="toggleModal()">&times;</span>
     <form class="sq-form" action="index.html" method="post">
-  		<fieldset>
-  			<legend>Login</legend>
-  			<input type="email" name="" value="" placeholder="E-mail">
-  			<input type="password" name="" value="" placeholder="Password">
-        <button type="submit" name="button">Login</button>
-  		</fieldset>
-  	</form>
+      <fieldset>
+        <legend>Login</legend>
+        <input type="email" name="" value="" placeholder="E-mail">
+        <input type="password" name="" value="" placeholder="Password">
+        <div class=" sq-container">
+          <div class="sq-justify-left"><button type="submit" name="">Login</button></div>
+          <div class="sq-justify-right"><button type="button" name="">New user</button></div>
+        </div>
+      </fieldset>
+    </form>
   </div>
-<!-- </div>  -->
+<!-- </div> -->

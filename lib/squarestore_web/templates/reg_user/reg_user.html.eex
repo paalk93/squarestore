@@ -1,0 +1,42 @@
+<div class="sq-main-layout">
+    <div class="sq-main-area">
+        <div class="sq-text-center">
+            <h1 class="sq-underline">Register new user</h1>
+        </div>
+        <form class="sq-form" action="index.html" method="post" type="text">
+            <fieldset class="sq-padding-1 sq-air-y-1">
+                <legend>Personalia</legend>
+                <label>Country</label>
+                <input type="text" name="" value="" placeholder="Country">
+                <label>First Name</label>
+                <input type="text" name="" value="" placeholder="First name">
+                <label>Last name</label>
+                <input type="text" name="" value="" placeholder="Last name">
+                <label>Date of birth</label>
+                <input type="date" name="" value="">
+            </fieldset>
+            <fieldset class="sq-padding-1 sq-air-y-1">
+                <legend>Adress</legend>
+                <label>Adress</label>
+                <input type="text" name="" value="" placeholder="Adress">
+                <label>AreaCode</label>
+                <input type="text" name="" value="" placeholder="AreaCode">
+                <label>Phone</label>
+                <input type="text" name="" value="" placeholder="Phone">
+            </fieldset>
+            <fieldset class="sq-padding-1 sq-air-y-1">
+                <legend>Email/Password</legend>
+                <label>E-mail</label>
+                <input type="text" name="" value="" placeholder="E-mail">
+                <label>Password</label>
+                <input type="text" name="" value="" placeholder="Password">
+                <label>Retype Password</label>
+                <input type="text" name="" value="" placeholder="Retype Password">
+            </fieldset>
+
+        </form>
+        <div class="sq-text-center">
+            <button class="">Register</button>
+        </div>
+    </div>
+</div>
