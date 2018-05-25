@@ -8,56 +8,50 @@ h6 {font-size: 0.9rem; font-weight: 600;}
 p {font-size: 0.9rem;}
 
 /* Bold */
-.sq-bold{ font-weight: bold;}
-
-.sq-bolder{ font-weight: bolder;}
-
+.sq-bold{font-weight: bold;}
+.sq-bolder{font-weight: bolder;}
 
 /*   Font family   */
-.sq-serif{ font-family: serif;}
-
-.sq-sans-serif{ font-family: sans-serif;}
-
-.sq-cursive{ font-family: cursive;}
-
-.sq-fantasy{ font-family: fantasy;}
+.sq-serif{font-family: serif;}
+.sq-sans-serif{font-family: sans-serif;}
+.sq-cursive{font-family: cursive;}
+.sq-fantasy{font-family: fantasy;}
 
 /*   Font-size   */
 
-.sq-text-small {
+.sq-text-small{
     font-size: 0.84rem;
-    line-height: 1.5;}
-
-.sq-text-large {
+    line-height: 1.5;
+}
+.sq-text-large{
     font-size: 1.5rem;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
 
 /* Text with colors (Muted, Warning, Success and Danger) */
 
-.sq-text-muted { color: #999 !important;}
-
-.sq-text-success { color: #32d296 !important;}
-
-.sq-text-warning { color: #faa05a !important;}
-
-.sq-text-danger { color: #f0506e !important;}
+.sq-text-muted{color: #999 !important;}
+.sq-text-success{color: #32d296 !important;}
+.sq-text-warning{color: #faa05a !important;}
+.sq-text-danger{color: #f0506e !important;}
 
 /*   Text Tranform-modifiers   */
 
-.sq-text-uppercase {text-transform: uppercase !important;}
-
-.sq-text-capitalize {text-transform: capitalize !important;}
-
-.sq-text-lowercase {text-transform: lowercase !important;}
-
+.sq-text-uppercase{text-transform: uppercase !important;}
+.sq-text-capitalize{text-transform: capitalize !important;}
+.sq-text-lowercase{text-transform: lowercase !important;}
 
 /* Text-Decoration Lines */
 
-.sq-overline{ text-decoration: overline;}
+.sq-overline{text-decoration: overline;}
+.sq-underline{text-decoration: underline;}
+.sq-linetrough{text-decoration: line-through;}
 
-.sq-underline{ text-decoration: underline;}
-
-.sq-linetrough{ text-decoration: line-through;}
+/* Text Align */
+.sq-text-left{text-align: left !important;}
+.sq-text-right{text-align: right !important;}
+.sq-text-center{text-align: center !important;}
+.sq-text-justify{text-align: justify !important;}
 
 /* DropCaps */
 
@@ -81,13 +75,3 @@ p:first-child:first-letter {
     padding-right: 0px;
     padding-left: 3px;
   } */
-
-/* Text align */
-
-.sq-text-left {text-align: left !important;}
-
-.sq-text-right {text-align: right !important;}
-
-.sq-text-center {text-align: center !important;}
-
-.sq-text-justify {text-align: justify !important;}

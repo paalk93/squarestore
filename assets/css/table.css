@@ -42,34 +42,25 @@
   }
   /*classes end*/
 
-
-
   /*change size of each row*/
   .sq-table-row-padding-05{
     padding-top:0.5em;
     padding-bottom:0.5em;
   }
-
   .sq-table-row-padding-1{
     padding-top: 1em;
     padding-bottom:1em;
   }
-
   .sq-table-row-padding-2{
     padding-top:1.5em;
     padding-bottom:1.5em;
   }
 
-
-
 /*misc*/
 
 /* tbody tr:not(:slast-child){
     border-bottom: solid .1em var(--divider);
-} */
-
-
-
+}
 /* th[data-sorted-direction='ascending']::after{
     float: right;
     content: '\02193';

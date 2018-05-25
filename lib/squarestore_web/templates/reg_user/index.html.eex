@@ -1,0 +1,42 @@
+<%# <div id="modalShow" class="sq-modal"> %>
+    <div class="sq-modal-content">
+        <span class="sq-close" onclick="toggleModal()">&times;</span>
+        <div class="sq-text-center">
+            <h1 class="sq-underline">Register new user</h1>
+        </div>
+        <form class="sq-form" action="index.html" method="post" type="text">
+            <fieldset>
+                <legend>Personalia</legend>
+                <label>Country</label>
+                <input type="text" name="" value="" placeholder="Country">
+                <label>First Name</label>
+                <input type="text" name="" value="" placeholder="First name">
+                <label>Last name</label>
+                <input type="text" name="" value="" placeholder="Last name">
+                <label>Date of birth</label>
+                <input type="date" name="" value="">
+            </fieldset>
+            <fieldset>
+                <legend>Adress</legend>
+                <label>Adress</label>
+                <input type="text" name="" value="" placeholder="Adress">
+                <label>AreaCode</label>
+                <input type="text" name="" value="" placeholder="AreaCode">
+                <label>Phone</label>
+                <input type="text" name="" value="" placeholder="Phone">
+            </fieldset>
+            <fieldset>
+                <legend>Email/Password</legend>
+                <label>E-mail</label>
+                <input type="text" name="" value="" placeholder="E-mail">
+                <label>Password</label>
+                <input type="text" name="" value="" placeholder="Password">
+                <label>Retype Password</label>
+                <input type="text" name="" value="" placeholder="Retype Password">
+            </fieldset>
+        </form>
+        <div class="sq-text-center">
+            <button type="submit" class="sq-btn">Register</button>
+        </div>
+    </div>
+<%# </div> %>

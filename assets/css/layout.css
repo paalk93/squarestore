@@ -96,4 +96,7 @@
 	justify-content: flex-start;
 	margin-right: auto;
 }
+.sq-flex{
+  display:flex;
+}
 /* Flex end */

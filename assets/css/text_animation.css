@@ -1,11 +1,11 @@
 
 /*Fade Animation*/
-.sq-animation-fade {
+.sq-animation-fade{
     animation-name: sq-fade;
     animation-duration: 0.8s;
     animation-timing-function: linear;
   }
-  @keyframes sq-fade {
+  @keyframes sq-fade{
     0% {
       opacity: 0;
     }
@@ -13,403 +13,335 @@
       opacity: 1;
     }
   }
-  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
+  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{
     animation-name: none;}
-    [class*='sq-animation-'] {
+    [class*='sq-animation-']{
       animation-duration: 0.5s;
       animation-timing-function: ease-out;
       animation-fill-mode: both;
     }
-  
-  
-  
+
+
+
   /*Scale-Up animation*/
-  .sq-animation-scale-up {
-    animation-name: sq-fade-scale-02;
-  }
-  @keyframes sq-fade-scale-02 {
-    0% {
+  .sq-animation-scale-up{
+    animation-name: sq-fade-scale-02;}
+  @keyframes sq-fade-scale-02{
+    0%{
       opacity: 0;
       transform: scale(0.2);
     }
-    100% {
+    100%{
       opacity: 1;
       transform: scale(1);
-    }
   }
-  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-    animation-name: none;}
+  }
+  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
     [class*='sq-animation-'] {
       animation-duration: 0.5s;
       animation-timing-function: ease-out;
       animation-fill-mode: both;
     }
-  
-  
-  
+
+
+
   /*Scale-Down animation*/
-    .sq-animation-scale-down {
-        animation-name: sq-fade-scale-18;
-        }
-        @keyframes sq-fade-scale-18 {
-          0% {
+    .sq-animation-scale-down{
+        animation-name: sq-fade-scale-18;}
+        @keyframes sq-fade-scale-18{
+          0%{
             opacity: 0;
             transform: scale(1.8);
           }
-          100% {
+          100%{
             opacity: 1;
             transform: scale(1);
-          }
         }
-        .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-          animation-name: none;}
-          [class*='sq-animation-'] {
+        }
+        .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+          [class*='sq-animation-']{
             animation-duration: 0.5s;
             animation-timing-function: ease-out;
             animation-fill-mode: both;
           }
-  
-  
-  
+
   /*Shake animation*/
-      .sq-animation-shake {
+      .sq-animation-shake{
         animation-name: sq-shake;
       }
-      @keyframes sq-shake {
+      @keyframes sq-shake{
         0%,
-        100% {
-          transform: translateX(0);
-        }
-        10% {
-          transform: translateX(-9px);
-        }
-        20% {
-          transform: translateX(8px);
-        }
-        30% {
-          transform: translateX(-7px);
-        }
-        40% {
-          transform: translateX(6px);
-        }
-        50% {
-          transform: translateX(-5px);
-        }
-        60% {
-          transform: translateX(4px);
-        }
-        70% {
-          transform: translateX(-3px);
-        }
-        80% {
-          transform: translateX(2px);
-        }
-        90% {
-          transform: translateX(-1px);
-        }
+        100%{
+          transform: translateX(0);}
+        10%{transform: translateX(-9px);}
+        20%{transform: translateX(8px);}
+        30%{transform: translateX(-7px);}
+        40%{transform: translateX(6px);}
+        50%{transform: translateX(-5px);}
+        60%{transform: translateX(4px);}
+        70%{transform: translateX(-3px);}
+        80%{transform: translateX(2px);}
+        90%{transform: translateX(-1px);}
       }
-      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-        animation-name: none;}
-        [class*='sq-animation-'] {
+      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+        [class*='sq-animation-']{
           animation-duration: 0.5s;
           animation-timing-function: ease-out;
           animation-fill-mode: both;
         }
-  
-  
-  
+
   /*Fade-Left animation*/
-      .sq-animation-slide-left {
-        animation-name: sq-fade-left;
-      }
-      @keyframes sq-fade-left {
-        0% {
+      .sq-animation-slide-left{
+        animation-name: sq-fade-left;}
+      @keyframes sq-fade-left{
+        0%{
           opacity: 0;
           transform: translateX(-100%);
         }
-        100% {
+        100%{
           opacity: 1;
           transform: translateX(0);
         }
       }
-      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-        animation-name: none;}
-        [class*='sq-animation-'] {
+      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+        [class*='sq-animation-']{
           animation-duration: 0.5s;
           animation-timing-function: ease-out;
           animation-fill-mode: both;
         }
-  
-  
-  
+
   /*Fade-Top animation*/
-      .sq-animation-slide-top {
-        animation-name: sq-fade-top;
-      }
-      @keyframes sq-fade-top {
-        0% {
+      .sq-animation-slide-top{
+        animation-name: sq-fade-top;}
+      @keyframes sq-fade-top{
+        0%{
           opacity: 0;
           transform: translateY(-100%);
         }
-        100% {
+        100%{
           opacity: 1;
           transform: translateY(0);
         }
       }
-      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
+      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{
         animation-name: none;}
-        [class*='sq-animation-'] {
+        [class*='sq-animation-']{
           animation-duration: 0.5s;
           animation-timing-function: ease-out;
           animation-fill-mode: both;
         }
-  
-  
+
   /*Fade-Bottom animation*/
-  .sq-animation-slide-bottom {
-    animation-name: sq-fade-bottom;
-  }
-  @keyframes sq-fade-bottom {
-    0% {
+  .sq-animation-slide-bottom{
+    animation-name: sq-fade-bottom;}
+  @keyframes sq-fade-bottom{
+    0%{
       opacity: 0;
       transform: translateY(100%);
     }
-    100% {
+    100%{
       opacity: 1;
       transform: translateY(0);
     }
   }
-  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-    animation-name: none;}
-    [class*='sq-animation-'] {
+  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+    [class*='sq-animation-']{
       animation-duration: 0.5s;
       animation-timing-function: ease-out;
       animation-fill-mode: both;
     }
-  
-  
-  
+
+
+
   /*Fade-Right animation*/
-  .sq-animation-slide-right {
-    animation-name: sq-fade-right;
-  }
-  @keyframes sq-fade-right {
-    0% {
+  .sq-animation-slide-right{
+    animation-name: sq-fade-right;}
+  @keyframes sq-fade-right{
+    0%{
       opacity: 0;
       transform: translateX(100%);
     }
-    100% {
+    100%{
       opacity: 1;
       transform: translateX(0);
     }
   }
-  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
+  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{
     animation-name: none;}
-    [class*='sq-animation-'] {
+    [class*='sq-animation-']{
       animation-duration: 0.5s;
       animation-timing-function: ease-out;
       animation-fill-mode: both;
     }
-  
-  
-  
+
+
+
   /*Fade-Left-Small animation*/
-  .sq-animation-slide-left-small {
+  .sq-animation-slide-left-small{
     animation-name: sq-fade-left-small;
   }
-  @keyframes sq-fade-left-small {
-    0% {
+  @keyframes sq-fade-left-small{
+    0%{
       opacity: 0;
       transform: translateX(-10px);
     }
-    100% {
+    100%{
       opacity: 1;
       transform: translateX(0);
     }
   }
-  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
+  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{
     animation-name: none;}
-    [class*='sq-animation-'] {
+    [class*='sq-animation-']{
       animation-duration: 0.5s;
       animation-timing-function: ease-out;
       animation-fill-mode: both;
     }
-  
-  
-  
+
   /*Fade-Top-Small animation*/
-      .sq-animation-slide-top-small {
-        animation-name: sq-fade-top-small;
-      }
-      @keyframes sq-fade-top-small {
-        0% {
+      .sq-animation-slide-top-small{
+        animation-name: sq-fade-top-small;}
+      @keyframes sq-fade-top-small{
+        0%{
           opacity: 0;
           transform: translateY(-10px);
         }
-        100% {
+        100%{
           opacity: 1;
           transform: translateY(0);
         }
       }
-      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-        animation-name: none;}
-        [class*='sq-animation-'] {
+      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+        [class*='sq-animation-']{
           animation-duration: 0.5s;
           animation-timing-function: ease-out;
           animation-fill-mode: both;
         }
-  
-  
-  
+
+
+
   /*Fade-Bottom-Small animation*/
-  .sq-animation-slide-bottom-small {
-    animation-name: sq-fade-bottom-small;
-  }
-  @keyframes sq-fade-bottom-small {
-    0% {
+  .sq-animation-slide-bottom-small{
+    animation-name: sq-fade-bottom-small;}
+  @keyframes sq-fade-bottom-small{
+    0%{
       opacity: 0;
       transform: translateY(10px);
     }
-    100% {
+    100%{
       opacity: 1;
       transform: translateY(0);
     }
   }
-  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-    animation-name: none;}
-    [class*='sq-animation-'] {
+  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+    [class*='sq-animation-']{
       animation-duration: 0.5s;
       animation-timing-function: ease-out;
       animation-fill-mode: both;
     }
-  
-  
-  
+
   /*Fade-Right-Small animation*/
-      .sq-animation-slide-right-small {
-        animation-name: sq-fade-right-small;
-      }
-      @keyframes sq-fade-right-small {
-        0% {
+      .sq-animation-slide-right-small{animation-name: sq-fade-right-small;}
+      @keyframes sq-fade-right-small{
+        0%{
           opacity: 0;
           transform: translateX(10px);
         }
-        100% {
+        100%{
           opacity: 1;
           transform: translateX(0);
         }
       }
-      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-        animation-name: none;}
-        [class*='sq-animation-'] {
+      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+        [class*='sq-animation-']{
           animation-duration: 0.5s;
           animation-timing-function: ease-out;
           animation-fill-mode: both;
         }
-  
-  
+
   /*Fade-Left-Small animation*/
-      .sq-animation-slide-left-medium {
-        animation-name: sq-fade-left-medium;
-      }
-      @keyframes sq-fade-left-medium {
-        0% {
+      .sq-animation-slide-left-medium{animation-name: sq-fade-left-medium;}
+      @keyframes sq-fade-left-medium{
+        0%{
           opacity: 0;
           transform: translateX(-50px);
         }
-        100% {
+        100%{
           opacity: 1;
           transform: translateX(0);
         }
       }
-      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-        animation-name: none;}
-        [class*='sq-animation-'] {
+      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+        [class*='sq-animation-']{
           animation-duration: 0.5s;
           animation-timing-function: ease-out;
           animation-fill-mode: both;
         }
-  
-  
+
   /*Fade-Top-Medium animation*/
-      .sq-animation-slide-top-medium {
-        animation-name: sq-fade-top-medium;
-      }
-      @keyframes sq-fade-top-medium {
-        0% {
+      .sq-animation-slide-top-medium{animation-name: sq-fade-top-medium;}
+      @keyframes sq-fade-top-medium{
+        0%{
           opacity: 0;
           transform: translateY(-50px);
         }
-        100% {
+        100%{
           opacity: 1;
           transform: translateY(0);
         }
       }
-      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-        animation-name: none;}
-        [class*='sq-animation-'] {
+      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+        [class*='sq-animation-']{
           animation-duration: 0.5s;
           animation-timing-function: ease-out;
           animation-fill-mode: both;
         }
-  
-  
+
+
   /*Fade-Bottom-Medium animation*/
-      .sq-animation-slide-bottom-medium {
-        animation-name: sq-fade-bottom-medium;
-      }
-      @keyframes sq-fade-bottom-medium {
-        0% {
+      .sq-animation-slide-bottom-medium{animation-name: sq-fade-bottom-medium;}
+      @keyframes sq-fade-bottom-medium{
+        0%{
           opacity: 0;
           transform: translateY(50px);
         }
-        100% {
+        100%{
           opacity: 1;
           transform: translateY(0);
         }
       }
-      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-        animation-name: none;}
-        [class*='sq-animation-'] {
+      .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+        [class*='sq-animation-']{
           animation-duration: 0.5s;
           animation-timing-function: ease-out;
           animation-fill-mode: both;
         }
-  
-  
-  
+
   /*Fade-Right-Medium animation*/
-  .sq-animation-slide-right-medium {
-    animation-name: sq-fade-right-medium;
-  }
-  @keyframes sq-fade-right-medium {
-    0% {
+  .sq-animation-slide-right-medium{animation-name: sq-fade-right-medium;}
+  @keyframes sq-fade-right-medium{
+    0%{
       opacity: 0;
       transform: translateX(50px);
     }
-    100% {
+    100%{
       opacity: 1;
       transform: translateX(0);
     }
   }
-  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-'] {
-    animation-name: none;}
-    [class*='sq-animation-'] {
+  .sq-animation-toggle:not(:hover):not(.sq-hover) [class*='sq-animation-']{animation-name: none;}
+    [class*='sq-animation-']{
       animation-duration: 0.5s;
       animation-timing-function: ease-out;
       animation-fill-mode: both;
     }
-  
-  
-  
-  
   /* Text ANIMATION */
-  
+
   /*CLASS*/	                                  /*DESCRIPTION
   .sq-animation-fade	                    /*The element fades in.
-  
+
   .sq-animation-shake	                    /*The element shakes.
-  
+
   .sq-animation-scale-up
   .sq-animation-scale-down	              /*The element fades in and scales up or down.
   
@@ -418,18 +350,17 @@
   .sq-animation-slide-left
   .sq-animation-slide-right	              /*The element fades and slides in from the top,
                                           bottom, left or right by its own height or width.
-  
+
   .sq-animation-slide-top-small
   .sq-animation-slide-bottom-small
   .sq-animation-slide-left-small
   .sq-animation-slide-right-small	        /*The element fades and slides in from the top,
                                           bottom, left or right with a smaller distance which
                                           is specified by a fixed pixel value.
-  
+
   .sq-animation-slide-top-medium
   .sq-animation-slide-bottom-medium
   .sq-animation-slide-left-medium
   .sq-animation-slide-right-medium	      /*The element fades and slides in from the top,
                                           bottom, left or right with a medium distance
                                           which is specified by a fixed pixel value.*/
-  
