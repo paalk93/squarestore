@@ -16,42 +16,50 @@
       <nav class="sq-nav-area">
         <div role="navigation" class="sq-navbar-layout">
 			<div class="sq-navbar-nav  sq-secondary sq-text-right">
-				<span>Welcome to our store! |</span>
-        <span>Sign up for our newsletter</span>
-        <span>| Contact us</span>
+      <!--Commersial links -->
+				<div class="sq-air-x-05">
+					<a href="#" class="sq-text-white sq-secondary sq-r-border">Welcome to our store!</a>
+					<a href="#" class="sq-text-white sq-secondary sq-r-border">Sign up for our newsletter</a>
+					<a href="#" class="sq-text-white sq-secondary">Contact us</a>
+				</div>
+    <!--NAVNAR Part 2/3-->
 			</div>
 			<div class="sq-navbar-domain  sq-secondary" style="width:100%;display:flex;">
-        <a href="#" class="sq-text-white sq-secondary">DummyDomain</a>
-       <div class="sq-flex-1"></div>
-
-       <div class="sq-flex-auto">
-       <input type="text" placeholder:"search.." name="search"
-        style="width: 80%; height: 30%;">
-       </div>
-
-        <div class="sq-flex-1 sq-text-right">
-          <button class="sq-nav-button-1">Sign in</button>
-          <button>Shopping cart</button>
-        </div>
+				<a href="#" class="sq-text-white sq-secondary">DummyDomain</a>
+				<div class="sq-flex-1"></div>
+				<!-- Searchbar -->
+				<div class="sq-flex-auto">
+					<input type="text" placeholder="search.." name="search"	style="width: 80%; height: 30%;">
+				</div>
+				<!--Shoppingcart & Sign in buttons -->
+				<div class="sq-flex-1 sq-text-right">
+					<div class="sq-air-x-05">
+					<button class="sq-nav-button-1">Sign in</button>
+					<button>Shopping cart</button>
+					</div>
+				</div>
 			</div>
-			<div class="sq-navbar-links sq-secondary-highlight" align="center">
-			<Button>All products</Button>
-      <button>Some really cool thing</button>
-      <button>Some products</button>
-      <button>other products</button>
-      <button>other products</button>
-			<button>far - left / antifa products</button>
-      <button>Luctrative products</button>
-      </div>
-        </div>
-	  </nav>
-      <main role="" class="sq-main">
+			<!--NAVBAR Part 3/3 -->
+			<div class="sq-navbar-links sq-secondary-highlight sq-text-center">
+				<div class="sq-nav-btn-group">
+					<Button>Categories</Button>
+					<button>Some really cool things</button>
+					<button>Some products</button>
+					<button>other products</button>
+					<button>other products</button>
+					<button>All Products</button>
+					<button>Campaign products</button>
+				</div>
+			</div>
+		</div>
+	</nav>
+    <main role="" class="sq-main">
     	<%= render @view_module, @view_template, assigns %>
-      </main>
-	  <footer>
-        <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-        <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-	  </footer>
+    </main>
+	<footer>
+		<p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+		<p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+	</footer>
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>

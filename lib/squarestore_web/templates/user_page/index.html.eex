@@ -22,10 +22,12 @@
     <path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" />
   </svg>
   eldre historikk</h4></button>
-  <table class="sq-custom-table-position" style="grid-area: 4 / 1 / span end / span end;">
-    <th> Fakturahistorikk</th>
-  </table>
-  <table class="sq-custom-table-position" style="grid-area: 5 / 1 / span end / span end; margin-top: -7rem;">
+  <table class="sq-custom-table-position sq-table-misc-arrow-up sq-table-striped sq-table-hover" style="grid-area: 4 / 1 / span end / span end; border-collapse:collapse;">
+    <tr>
+      <th>Value#</th>
+      <th>Value#</th>
+      <th>Value#</th>
+    </tr>
     <tr>
       <td>Value 1</td>
       <td>Value 2</td>

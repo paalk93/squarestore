@@ -8,3 +8,51 @@ flex: 1;
 .sq-flex-auto{
     flex: auto;
 }
+
+/* Paul Buttons */
+
+.sq-nav-btn-group button {
+    background-color: var(--secondary-highlight); 
+    border: none; 
+    color: white; 
+    padding: 8px 15px; 
+    cursor: pointer; 
+    
+}
+
+/* Clear floats (clearfix hack) */
+.sq-nav-btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sq-nav-btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+
+.sq-nav-btn-group button:hover {
+    background-color: var(--secondary-transparancy);
+}
+/* PK products layout area classes */
+.sq-products-layout-area-button{
+  grid-area:1 / 1 / span end / span 1;
+}
+.sq-products-layout-area-header{
+  grid-area: 1 / 2 / span 1 /span end;
+}
+.sq-products-layout-area-cards{
+  grid-area: 2 / 2 / span end / span end;
+}
+/* PK product cards */
+.sq-products-card{
+  width:25rem;
+  height:20rem;
+  background-color: var(--background);
+  margin:0;
+}
+/* PK flex */
+.sq-flex-wrap{
+  flex-wrap:wrap;
+}

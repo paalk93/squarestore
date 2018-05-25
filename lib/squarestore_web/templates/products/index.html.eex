@@ -1,0 +1,31 @@
+<div class="sq-main-layout">
+  <div class="sq-products-layout-area-button">
+    <button class="sq-margin-2">Placeholder Text</button>
+  </div>
+  <div class="sq-products-layout-area-header">
+    <div class="sq-text-center">
+      <h2 class="sq-justify-center">Products</h2>
+      <hr style="margin:0;">
+    </div>
+  </div>
+  <div class="sq-products-layout-area-cards">
+    <div class="sq-flex sq-flex-wrap">
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+      <div class="sq-products-card sq-margin-05 sq-card"></div>
+    </div>
+  </div>
+</div>
