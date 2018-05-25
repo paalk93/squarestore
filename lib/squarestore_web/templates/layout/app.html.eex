@@ -13,15 +13,15 @@
 
   <body class="sq-viewport">
   <div class="sq-page">
-      <nav class="sq-nav-area">
+<nav class="sq-nav-area">
         <div role="navigation" class="sq-navbar-layout">
 			<div class="sq-navbar-nav  sq-secondary sq-text-right">
       <!--links -->
-				<div class="sq-air-x-05">
-					<a href="#" class="sq-text-white sq-secondary sq-r-border sq-x-padding-05">Welcome to our store!</a>
-					<a href="#" class="sq-text-white sq-secondary sq-r-border sq-x-padding-05">Sign up for our newsletter</a>
-					<a href="#" class="sq-text-white sq-secondary sq-x-padding-05">Contact us</a>
-				</div>
+<div class="sq-air-x-05">
+	<a href="#" class="sq-text-white sq-secondary sq-r-border sq-x-padding-05">Welcome to our store!</a>
+	<a href="#" class="sq-text-white sq-secondary sq-r-border sq-x-padding-05">Sign up for our newsletter</a>
+	<a href="#" class="sq-text-white sq-secondary sq-x-padding-05">Contact us</a>
+</div>
     <!--NAVBAR Part 2/3-->
 			</div>
 			<div class="sq-navbar-domain  sq-secondary" style="width:100%;display:flex;">
@@ -65,7 +65,7 @@
 				</div>
 			</div>
 		</div>
-	</nav>
+</nav>
     <main role="" class="sq-main">
     	<%= render @view_module, @view_template, assigns %>
     </main>
