@@ -16,14 +16,13 @@ defmodule SquarestoreWeb.Router do
   scope "/", SquarestoreWeb do
     pipe_through :browser # Use the default browser stack
     get "/", PageController, :index
-    get "/reg_user", RegUserController, :index
+    get "/product", ProductController, :index
+	get "/products", ProductsController, :index
+    get "/reguser", RegUserController, :index
 	get "/userpage", UserPageController, :index
-
 	get "/login", LoginController, :index
-  get "/userpage", UserPageController, :index
-  get "/tos", TosController, :index
-  get "/about", AboutController, :index
-
+	get "/tos", TosController, :index
+  	get "/about", AboutController, :index
   end
 
   # Other scopes may use custom stacks.
