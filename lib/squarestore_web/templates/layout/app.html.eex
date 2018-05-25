@@ -39,13 +39,13 @@
       <button>Some really cool thing</button>
       <button>Some products</button>
       <button>other products</button>
-      <button>other products</button>        
+      <button>other products</button>
 			<button>far - left / antifa products</button>
       <button>Luctrative products</button>
       </div>
         </div>
 	  </nav>
-      <main role="sq-main">
+      <main role="" class="sq-main">
     	<%= render @view_module, @view_template, assigns %>
       </main>
 	  <footer>

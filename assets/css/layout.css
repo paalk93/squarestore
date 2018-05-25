@@ -90,7 +90,7 @@
 }
 .sq-justify-right{
 	justify-content: flex-end;
-	margin-right: auto;
+	margin-left: auto;
 }
 .sq-justify-left{
 	justify-content: flex-start;
