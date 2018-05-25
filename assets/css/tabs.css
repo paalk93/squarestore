@@ -1,8 +1,8 @@
-.sq-tabs {
+.sq-tabs{
     display: flex;
     flex-wrap: wrap;
 }
-.sq-tabs label {
+.sq-tabs label{
     order: 1;
     display: block;
     padding: 1rem 2rem;
@@ -11,23 +11,19 @@
     font-weight: bold;
     transition: background ease 0.2s;
 }
-.sq-tabs .sq-tab {
+.sq-tabs .sq-tab{
     order: 99;
     flex-grow: 1;
     width: 100%;
     display: none;
     padding: 1rem;
 }
-.sq-tabs input[type="radio"] {
+.sq-tabs input[type="radio"]{
     display: none;
 }
-.sq-tabs input[type="radio"]:checked + label {
-    border-bottom:solid .2em var(--primary)
-}
-.sq-tabs input[type="radio"]:checked + label + .sq-tab {
-    display: block;
-}
-.sq-tabs label {
+.sq-tabs input[type="radio"]:checked + label{border-bottom:solid .2em var(--primary)}
+.sq-tabs input[type="radio"]:checked + label + .sq-tab{display: block;}
+.sq-tabs label{
       width: 100%;
       margin-right: 0;
       margin-top: 0.2rem;

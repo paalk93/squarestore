@@ -2,198 +2,122 @@
     /*    Air Start   */
     /* Air Top and bottom ( Y ) */
 .sq-air-y-05{margin: 0.5em 0em 0.5em 0em;}
-
 .sq-air-y-1{margin: 1em 0em 1em 0em;}
-
 .sq-air-y-2{margin: 2em 0em 2em 0em;}
-
 .sq-air-y-3{margin: 3em 0em 3em 0em;}
-
 .sq-air-y-4{margin: 4em 0em 4em 0em;}
-
 .sq-air-y-5{margin: 5em 0em 5em 0em;}
 
     /* Air left and right (X) */
 .sq-air-x-05{margin: 0em 0.5em 0em 0.5em;}
-
 .sq-air-x-1{ margin: 0em 1em 0em 1em;}
-
 .sq-air-x-2{margin: 0em 2em 0em 2em;}
-
 .sq-air-x-3{margin: 0em 3em 0em 3em;}
-
 .sq-air-x-4{margin: 0em 4em 0em 4em;}
-
 .sq-air-x-5{ margin: 0em 5em 0em 5em;}
 
     /* Air end */
     /* Margin all sides */
 .sq-margin-05{margin: 0.5em;}
-
 .sq-margin-1{margin: 1em;}
-
 .sq-margin-2{margin: 2em;}
-
 .sq-margin-3{margin: 3em;}
-
 .sq-margin-4{margin: 4em}
-
 .sq-margin-5{margin: 5em;}
-
 
     /* Margin Top Start */
 .sq-mt-05{margin-top: 0.5em;}
-
 .sq-mt-1{margin-top: 1em;}
-
 .sq-mt-2{margin-top: 2em;}
-
 .sq-mt-3{margin-top: 3em;}
-
 .sq-mt-4{margin-top: 4em;}
-
 .sq-mt-5{margin-top: 5em;}
-
 
     /* Margin bottom Start */
 .sq-mb-05{margin-bottom: 0.5em;}
-
 .sq-mb-1{margin-bottom: 1em;}
-
 .sq-mb-2{margin-bottom: 2em;}
-
 .sq-mb-3{margin-bottom: 3em;}
-
 .sq-mb-4{margin-bottom: 4em;}
-
 .sq-mb-5{margin-bottom: 5em;}
 
     /*Padding All sides Start*/
 .sq-padding-05{padding: 0.5em;}
-
 .sq-padding-1{padding: 1em;}
-
 .sq-padding-2{padding: 2em;}
-
 .sq-padding-3{padding: 3em;}
-
 .sq-padding-4{padding: 4em;}
-
 .sq-padding-5{padding: 5em;}
 
 
     /* Padding Left Start */
 .sq-l-padding-05{padding-left: 0.5em;}
-
 .sq-l-padding-1{padding-left: 1em;}
-
 .sq-l-padding-2{padding-left: 2em;}
-
 .sq-l-padding-3{padding-left: 3em;}
-
 .sq-l-padding-4{padding-left: 4em;}
-
 .sq-l-padding-5{padding-left: 5em;}
-
 
     /*Padding right only Start */
 .sq-r-padding-05{padding-right: 0.5em;}
-
 .sq-r-padding-1{padding-right: 1em;}
-
 .sq-r-padding-2{padding-right: 2em;}
-
 .sq-r-padding-3{padding-right: 3em;}
-
 .sq-r-padding-4{padding-right: 4em;}
-
 .sq-r-padding-5{padding-right: 5em;}
-
 
     /* Paddin Top only Start */
 .sq-t-padding-05{padding-top: 0.5em;}
-
 .sq-t-padding-1{padding-top: 1em;}
-
 .sq-t-padding-2{padding-top: 2em;}
-
 .sq-t-padding-3{padding-top: 3em;}
-
 .sq-t-padding-4{padding-top: 4em;}
-
 .sq-t-padding-5{padding-top: 5em;}
-
 
     /* Padding Bottom Only Start */
 .sq-b-padding-05{padding-bottom: 0.5em;}
-
 .sq-b-padding-1{padding-bottom: 1em;}
-
 .sq-b-padding-2{padding-bottom: 2em;}
-
 .sq-b-padding-3{padding-bottom: 3em;}
-
 .sq-b-padding-4{padding-bottom: 4em;}
-
 .sq-b-padding-5{padding-bottom: 5em;}
 
     /* Borders start */
 .sq-border-1{border: 1px solid;}
-
 .sq-border-3{border: 3px solid;}
-
 .sq-border-5{border: 5px solid;}
 
     /* Border styles */   /*   !  Works only on borders with all four sides ! */
 .sq-solid{border-style: solid;}
-
 .sq-dashed{border-style: dashed;}
-
 .sq-dotted{border-style: dotted;}
-
 .sq-groove{border-style: groove;}
-
 .sq-none{border-style: none;}
-
 .sq-inherit{border-style: inherit;}
-
 .sq-ridge{border-style: ridge;}
-
 
     /* Border top only Start */           /*   !  Solid Only  ! */
 .sq-t-border{border-top: 1px solid;}
-
 .sq-t-border-3{border-top: 3px solid;}
-
 .sq-t-border-5{border-top: 5px solid;}
-
 
     /* Border bottom only Start */          /*   !  Solid Only  ! */
 .sq-b-border{border-bottom: 1px solid;}
-
 .sq-b-border-3{border-bottom: 3px solid;}
-
 .sq-b-border-5{border-bottom: 5px solid;}
-
 
     /* Border Left side Only Start */          /*   !  Solid Only  ! */
 .sq-l-border{border-left: 1px solid;}
-
 .sq-l-border-3{border-left: 3px solid;}
-
 .sq-l-border-5{border-left: 5px solid;}
-
 
     /* border Right side only Start */          /*   !  Solid Only  ! */
 .sq-r-border{border-right: 1px solid;}
-
 .sq-r-border-3{border-right: 3px solid;}
-
 .sq-r-border-5{border-right: 5px solid;}
 
     /* TEST-BORDER*/
 .sq-b-test{border: 1px solid;}
-
 
     /*Misc*/
 .sq-border-collapse {border-collapse:collapse;}

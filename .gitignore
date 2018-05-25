@@ -26,3 +26,4 @@ npm-debug.log
 # variables.
 /config/*.secret.exs
 assets/package-lock\.json
+lib/squarestore_web/router.ex
