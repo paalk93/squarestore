@@ -91,7 +91,9 @@ grid-area: 1 / 2 / span 1 /span end;
 .sq-products-layout-area-cards{
 grid-area: 2 / 2 / span end / span end;
 }
-
+.sq-products-search-layout-area-panel{
+  grid-area: 2 / 3 / span 1 / span 6; 
+  }
 
 
 /* PK flex */
