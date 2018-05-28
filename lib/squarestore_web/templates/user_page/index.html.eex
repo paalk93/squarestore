@@ -1,12 +1,82 @@
 <div class="sq-main-layout">
 
 <div class="sq-panel-main-top sq-solid"> 
-<h1>Top panel</h1>
+ <div class="sq-container sq-flex-row">
+   
+        <div class="sq-card sq-flex-1 sq-flex-row">
+            <div class="sq-card-header">
+              <img class="sq-solid" style="max-width: 75px;max-height: 75px;" src="/images/user.png" alt="User"><br>
+            </div>
+            <div class="sq-card sq-mt-4">
+                <ul>
+                <li>Navn:</li>
+                <li>Adresse:</li>
+                <li>Faktura-Adresse:</li>
+                <li>Telefon:</li>
+                </ul>
+            
+                <div class="sq-justify-right">
+                <button>Endre Informasjon</button>
+                </div>    
+                
+            </div>
+
+
+            </div>
+            <div class=" sq-card sq-flex-auto">
+            </div>
+
+ </div>
+
+
+
+
 </div>
+
 
 <div class="sq-panel-main-bottom sq-solid">
-<h1>Bottom panel</h1>
+
+<div class="sq-text-center sq-air-y-1">
+
+<table border="2" class="sq-custom-table-position sq-table-misc-arrow-up sq-table-row-padding-05">
+<thead>Faktrua Oversikt</thead>
+<tr>
+    <th>Faktura Nr:</th>
+    <th>Forfalls dato:</th> 
+    <th>Utsendelses dato:</th>
+    <th>Totalt:</th>
+    <th>Herav MVA:</th>
+    <th>Til konto:</th>
+    <th>KID:</th>
+    <th>Betalt:</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>2</td>
+
+</tr>
+<tr>
+    <td>3</td>    
+</tr>
+<tr>
+    <td>4</td>
+</tr>
+<tr>
+    <td>5</td>    
+</tr>
+
+</table>
 </div>
 
+</div>
 
 </div>
