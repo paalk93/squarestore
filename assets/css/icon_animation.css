@@ -8,11 +8,11 @@ img{
     display: block;
     height: 250px;
     width: 250px;
-    border-radius: 50% 50% 50% 50%;
+    /* border-radius: 50% 50% 50% 50%; */
 }
 .shake.inline,
 h2.shake{display: inline-block;}
-h1,h2,p{color: rgb(00, 00, 00);}
+h1,h2,p{color: var(--text-base));}
 @-webkit-keyframes spaceboots{
     0%,
     100%{transform: translateX(0);}

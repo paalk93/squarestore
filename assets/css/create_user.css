@@ -1,5 +1,5 @@
 #regForm{
-  background-color: #ffffff;
+  background-color: var(--white);
   margin: 100px auto;
   padding: 40px;
   width: 70%;
@@ -10,7 +10,7 @@
   width: 100%;
   font-size: 17px;
   font-family: 'Times New Roman', Times, serif;
-  border: 1px solid #aaaaaa;
+  border: 1px solid var(--grey);
 }
 .sq-cu input.invalid{background-color:red;}
 .sq-cu-tab{display: none;}
@@ -18,18 +18,18 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbbbbb;
+  background-color: var(--secondary-highlight);
   border: none;
   border-radius: 50%;
   display: inline-block;
   opacity: 0.5;
 }
 .sq-cu-step.active{opacity: 1;}
-.sq-cu-step.finish{background-color: #4CAF50;}
+.sq-cu-step.finish{background-color: var(--success);}
 #message{
   display:none;
-  background: #f1f1f1;
-  color: #000;
+  background: var(--text-white);
+  color: var(--text-base);
   position: relative;
   padding: 20px;
   margin-top: 10px;
@@ -61,17 +61,17 @@
   margin-bottom: 16px;
 }
 .sq-cu-input[type=submit]{
-  background-color: #4CAF50;
+  background-color: var(--success);
   color: white;
 }
 .sq-cu-container{
-  background-color: #f1f1f1;
+  background-color: var(--text-white);
   padding: 20px;
 }
 #message{
   display:none;
-  background: #f1f1f1;
-  color: #000;
+  background: var(--text-white);
+  color: var(--text-base);
   position: relative;
   padding: 20px;
   margin-top: 10px;

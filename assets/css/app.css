@@ -12,12 +12,12 @@ flex: 1;
 /* Paul Buttons */
 
 .sq-nav-btn-group button {
-    background-color: var(--secondary-highlight); 
-    border: none; 
-    color: white; 
-    padding: 8px 15px; 
-    cursor: pointer; 
-    
+    background-color: var(--secondary-highlight);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+
 }
 
 /* Clear floats (clearfix hack) */
@@ -52,7 +52,95 @@ flex: 1;
   background-color: var(--background);
   margin:0;
 }
+
+/* 2nd NAV buttons*/
+
+.sq-nav-btn-group2 button {
+  background-color: var(--secondary); 
+  border: none; 
+  color: white; 
+  padding: 4px 20px; 
+  cursor: pointer; 
+  
+}
+
+.sq-nav-btn-group2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sq-nav-btn-group2 button:not(:last-child) {
+  border-right: none;
+}
+
+
+.sq-nav-btn-group2 button:hover {
+  background-color: var(--secondary-highlight);
+}
+
+
+
+/* PK products layout area classes */
+.sq-products-layout-area-button{
+grid-area:1 / 1 / span end / span 1;
+}
+.sq-products-layout-area-header{
+grid-area: 1 / 2 / span 1 /span end;
+}
+.sq-products-layout-area-cards{
+grid-area: 2 / 2 / span end / span end;
+}
+
+
+
 /* PK flex */
 .sq-flex-wrap{
   flex-wrap:wrap;
+}
+
+
+
+/*Alex homepage css */
+
+
+.sq-grid-position-box{
+  grid-area: 2 / 2 / span 2 / span 7;
+}
+.sq-grid-card-location-1{
+  grid-area: 4 / 2 / span 1 / span 7;
+}
+
+.sq-grid-card-location-2{
+  grid-area: 6 / 2 / span 2 / span 7;
+}
+.sq-flex-underbox{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+justify-content: space-around;
+}
+.sq-underbox-vr {height:3em; border: solid 0.5px black }
+.sq-underbox{
+  display: flex;
+  padding: 0.3em 1.5em;
+}
+
+.sq-underbox-img{
+  padding-right: 1em;
+  margin: 0.2em;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.sg-underbox-text{
+padding: 0.2em;
+}
+.sq-campaign-box {
+  display: flex;
+  padding: 0.3em 4.5em;
+  margin-top: 1em;
+  width: 35%;
+  background-color: var(--background);
 }

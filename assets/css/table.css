@@ -13,7 +13,6 @@
   }
 
   /*Containers end*/
-
   th{
     border:solid 1px black;
     padding:0.5em;
@@ -27,13 +26,13 @@
     /*classes*/
 
  /*Add stripe on odd rows (change odd to even for even rows)*/
-  .sq-table-striped tr:nth-child(odd){background-color: #f2f2f2}
+  .sq-table-striped tr:nth-child(odd){background-color: var(--grey)}
  /*If wanting to put Border on specific row*/
-  .sq-table-border{border-bottom: solid 1px black;}
+  .sq-table-border{border-bottom: solid 1px var(--text-base);}
  /*when hovering over table rows*/
   .sq-table-hover tr:hover{
-      background-color: lightgrey;
-      color: black;
+      background-color: var(--muted);
+      color: var(--text-base);
   }
   /*misc - can add icon through content*/
   .sq-table-misc-arrow-up th::after{
