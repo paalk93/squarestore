@@ -1,5 +1,12 @@
 <div class="sq-main-layout">
 
+<div class="sq-panel-main-top sq-solid"> 
+<h1>Top panel</h1>
+</div>
+
+<div class="sq-panel-main-bottom sq-solid">
+<h1>Bottom panel</h1>
+</div>
 
 
 </div>
