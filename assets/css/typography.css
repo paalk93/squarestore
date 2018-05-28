@@ -30,10 +30,10 @@ p {font-size: 0.9rem;}
 
 /* Text with colors (Muted, Warning, Success and Danger) */
 
-.sq-text-muted{color: #999 !important;}
-.sq-text-success{color: #32d296 !important;}
-.sq-text-warning{color: #faa05a !important;}
-.sq-text-danger{color: #f0506e !important;}
+.sq-text-muted{color: var(--muted) !important;}
+.sq-text-success{color: var(--success) !important;}
+.sq-text-warning{color: var(--warning) !important;}
+.sq-text-danger{color: var(--danger) !important;}
 
 /*   Text Tranform-modifiers   */
 
