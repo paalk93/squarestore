@@ -12,12 +12,12 @@ flex: 1;
 /* Paul Buttons */
 
 .sq-nav-btn-group button {
-    background-color: var(--secondary-highlight); 
-    border: none; 
-    color: white; 
-    padding: 8px 15px; 
-    cursor: pointer; 
-    
+    background-color: var(--secondary-highlight);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+
 }
 
 /* Clear floats (clearfix hack) */
@@ -52,6 +52,48 @@ flex: 1;
   background-color: var(--background);
   margin:0;
 }
+
+/* 2nd NAV buttons*/
+
+.sq-nav-btn-group2 button {
+  background-color: var(--secondary); 
+  border: none; 
+  color: white; 
+  padding: 4px 20px; 
+  cursor: pointer; 
+  
+}
+
+.sq-nav-btn-group2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.sq-nav-btn-group2 button:not(:last-child) {
+  border-right: none;
+}
+
+
+.sq-nav-btn-group2 button:hover {
+  background-color: var(--secondary-highlight);
+}
+
+
+
+/* PK products layout area classes */
+.sq-products-layout-area-button{
+grid-area:1 / 1 / span end / span 1;
+}
+.sq-products-layout-area-header{
+grid-area: 1 / 2 / span 1 /span end;
+}
+.sq-products-layout-area-cards{
+grid-area: 2 / 2 / span end / span end;
+}
+
+
+
 /* PK flex */
 .sq-flex-wrap{
   flex-wrap:wrap;
