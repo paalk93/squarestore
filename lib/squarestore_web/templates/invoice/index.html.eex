@@ -1,7 +1,7 @@
 <div class="sq-main-layout">
   <div class="sq-layout-area-invoice">
     <div class="sq-invoice-card sq-flexbox-column">
-      <div class="sq-flexbox-row sq-margin-1" style="justify-content:space-evenly;">
+      <div class="sq-flexbox-row sq-margin-1" style="justify-content:space-around;">
         <button>Hold</button>
         <button>Not in use</button>
         <button>Cancel</button>
