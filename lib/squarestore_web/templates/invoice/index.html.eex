@@ -1,11 +1,9 @@
 <div class="sq-main-layout">
-  <div class="sq-layout-area-invoice sq-flexbox-column" style="background-color:grey;">
-    <div class="sq-flexbox-row sq-margin-1">
-      <div style="justify-self:space-around;">
+  <div class="sq-layout-area-invoice sq-flexbox-column">
+    <div class="sq-flexbox-row sq-margin-1" style="justify-content:space-evenly;">
         <button>Hold</button>
         <button>Not in use</button>
         <button>Cancel</button>
-      </div>
     </div>
     <div class="sq-flexbox-row sq-margin-1" style="justify-content:space-around;">
       <div style="align-items:center;">
@@ -28,7 +26,7 @@
       <table style="border:none;">
         <thead>
           <tr>
-            <th>Description</th>
+            <th style="width:20rem;">Description</th>
             <th>Unit cost</th>
             <th>Qty</th>
             <th>Total</th>

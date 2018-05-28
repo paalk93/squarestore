@@ -95,6 +95,14 @@ grid-area: 2 / 2 / span end / span end;
 .sq-flex-wrap{
   flex-wrap:wrap;
 }
+.sq-flexbox-row{
+  display:flex;
+  flex-direction:row;
+}
+.sq-flexbox-column{
+  display:flex;
+  flex-direction:column;
+}
 /* Invoice card layout */
 .sq-invoice-card-layout{
   display: grid;
@@ -104,16 +112,6 @@ grid-area: 2 / 2 / span end / span end;
   background-color: var(--background);
   transition: 0.3s;
   margin:.5rem;
-}
-/* Invoice card layout areas */
-.sq-invoice-card-layout-area-top{
-grid-area: 1 / 1 / span 1 / span end;
-}
-.sq-invoice-card-layout-area-center{
-grid-area: 2 / 1 / span 1 / span end;
-}
-.sq-invoice-card-layout-area-bottom{
-grid-area: 3 / 1 / span 1 / span end;
 }
 /* Invoice layout area */
 .sq-layout-area-invoice{
