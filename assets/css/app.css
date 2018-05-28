@@ -91,14 +91,34 @@ grid-area: 1 / 2 / span 1 /span end;
 .sq-products-layout-area-cards{
 grid-area: 2 / 2 / span end / span end;
 }
-
-
-
 /* PK flex */
 .sq-flex-wrap{
   flex-wrap:wrap;
 }
-
+/* Invoice card layout */
+.sq-invoice-card-layout{
+  display: grid;
+  grid-template-rows:10% 1fr 1fr;
+  grid-template-columns: 1fr;
+  box-shadow: 0 4px 8px 0 var(--shadow-02);
+  background-color: var(--background);
+  transition: 0.3s;
+  margin:.5rem;
+}
+/* Invoice card layout areas */
+.sq-invoice-card-layout-area-top{
+grid-area: 1 / 1 / span 1 / span end;
+}
+.sq-invoice-card-layout-area-center{
+grid-area: 2 / 1 / span 1 / span end;
+}
+.sq-invoice-card-layout-area-bottom{
+grid-area: 3 / 1 / span 1 / span end;
+}
+/* Invoice layout area */
+.sq-layout-area-invoice{
+  grid-area: 2 / 3 / span 3 / span 5;
+}
 
 
 /*Alex homepage css */

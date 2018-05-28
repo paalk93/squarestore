@@ -1,0 +1,78 @@
+<div class="sq-main-layout">
+  <div class="sq-layout-area-invoice sq-flexbox-column" style="background-color:grey;">
+    <div class="sq-flexbox-row sq-margin-1">
+      <div style="justify-self:space-around;">
+        <button>Hold</button>
+        <button>Not in use</button>
+        <button>Cancel</button>
+      </div>
+    </div>
+    <div class="sq-flexbox-row sq-margin-1" style="justify-content:space-around;">
+      <div style="align-items:center;">
+        <p></p>
+        <p>Client name</p>
+        <p>1 Client address</p>
+        <p>City, State, Country</p>
+        <p>Zip code</p>
+      </div>
+      <div>
+        <p>Invoice number</p>
+        <p>000000</p>
+      </div>
+      <div>
+        <p>Date of issue</p>
+        <p>28.05.2018</p>
+      </div>
+    </div>
+    <div class="sq-flexbox-row sq-margin-1">
+      <table style="border:none;">
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Unit cost</th>
+            <th>Qty</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Unit description</td>
+            <td>2999kr</td>
+            <td>1</td>
+            <td>2999kr</td>
+          </tr>
+          <tr>
+            <td>Unit description</td>
+            <td>589kr</td>
+            <td>5</td>
+            <td>2945kr</td>
+          </tr>
+          <tr>
+            <td>Unit description</td>
+            <td>19kr</td>
+            <td>12</td>
+            <td>228kr</td>
+          </tr>
+          <tr style="border:none;">
+            <td style="border:none;">Subtotal</td>
+            <td style="border:none;"></td>
+            <td style="border:none;"></td>
+            <td style="border:none;">6172kr</td>
+          </tr>
+          <tr style="border:none;">
+            <td style="border:none;">Taxes</td>
+            <td style="border:none;"></td>
+            <td style="border:none;"></td>
+            <td style="border:none;">925.8kr</td>
+          </tr>
+          <tr style="border:none;">
+            <td style="border:none;">Sum total</td>
+            <td style="border:none;"></td>
+            <td style="border:none;"></td>
+            <td style="border:none;">7097.8kr</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
