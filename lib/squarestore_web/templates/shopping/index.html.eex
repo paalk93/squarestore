@@ -1,0 +1,11 @@
+<div class="sq-main-layout">
+<div class="sq-panel">
+	<div class="sq-panel-shop-top">
+		<div class="sq-flex">
+		<span>Varer</span>
+		<span>Antall</span>
+		<span>Pris</span>
+	</div>
+	</div>
+</div>
+</div>
