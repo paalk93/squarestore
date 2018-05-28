@@ -6,27 +6,74 @@
     </div>
   </div>
   <div class="sq-panel sq-products-search-layout-area-panel">
-  <p class="sq-justify-center">Placeholder for sort function</p>
+    <p class="sq-justify-center">Placeholder for sort function</p>
   </div>
+  <div class="sq-air-y-3 sq-panel sq-products-table-layout-area-panel ">
+    <table class="sq-justify-center sq-tables">
+      <thead>
+        <tr>
+          <th colspan="5">All Products</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Order nr</th>
+          <th>Date</th>
+          <th>info</th>
+          <th>Details</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>28.05.2018</td>
+          <td>a red cup </td>
+          <td>some details</td>
+          <td>In Storage</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>28.05.2018</td>
+          <td>a pink cup </td>
+          <td>some details</td>
+          <td>Out of stock</td>
+        </tr>
+        <tr>
+          <td>54</td>
+          <td>28.05.2018</td>
+          <td>a cyan cup </td>
+          <td>some details</td>
+          <td>In Storage</td>
+        </tr>
+        <tr>
+          <td>43</td>
+          <td>28.05.2018</td>
+          <td>a blue cup </td>
+          <td>some details</td>
+          <td>Out of stock</td>
+        </tr>
+        <tr>
+          <td>55</td>
+          <td>28.05.2018</td>
+          <td>a black cup </td>
+          <td>some details</td>
+          <td>In Storage</td>
+        </tr>
+        <tr>
+          <td>66</td>
+          <td>28.05.2018</td>
+          <td>a green cup </td>
+          <td>some details</td>
+          <td>Out of stock</td>
+        </tr>
+        <tr>
+          <td>73</td>
+          <td>28.05.2018</td>
+          <td>a purple cup </td>
+          <td>some details</td>
+          <td>In Storage</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <%# <div classs="sq-products-layout-area-cards">
-    <div class="sq-flex sq-flex-wrap">
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-      <div class="sq-products-card sq-margin-05 sq-card"></div>
-    </div>
-  </div> %>
 </div>
+
