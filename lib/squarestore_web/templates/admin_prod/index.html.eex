@@ -1,6 +1,6 @@
 <div class="sq-main-layout">
 <div Style="grid-area:  1 / 2 / span 5 / span 7; ">
-<table class="sq-border-collapse sq-table-striped sq-table-hover sq-table-misc-arrow-up sq-custom-table-position">
+<table class="sq-mt-1 sq-border-collapse sq-tables sq-table-hover sq-table-misc-arrow-up sq-custom-table-position">
               <tr>
                 <th>Produktnummer</th>
                 <th>Produkt navn</th>
