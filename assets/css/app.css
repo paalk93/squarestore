@@ -56,11 +56,11 @@ flex: 1;
 /* 2nd NAV buttons*/
 
 .sq-btn-3 button {
-  background-color: var(--secondary); 
-  border: none; 
-  color: white; 
-  padding: 4px 20px; 
-  cursor: pointer; 
+  background-color: var(--secondary);
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  cursor: pointer;
   background-color: var(--secondary);
   border: none;
   color: white;
@@ -214,3 +214,27 @@ padding: 0.2em;
 .sq-overflow-hidden{ overflow: hidden;}
 
 .sq-overflow-scroll{overflow: scroll;}
+
+
+/* Product details */
+.sq-p-details{
+	grid-area: 4 / 2 / span end / span 7;
+	margin-top: 0.5em;
+}
+.sq-p-bildepanel{
+	grid-area: 1 / 2 / span 3 / span 3;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+}
+.sq-p-logpanel{
+	grid-area: 1 / 5 / span 3 /span 4;
+	margin-top: 0.5em;
+}
+.sq-p-align-end{
+	margin-top: auto;
+	align-content: end;
+}
+.sq-p-price-card{
+	display: flex;
+	background-color: var(--background);
+}
