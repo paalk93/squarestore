@@ -1,11 +1,121 @@
+
 <div class="sq-main-layout">
-<div class="sq-panel">
-	<div class="sq-panel-shop-top">
-		<div class="sq-flex">
-		<span>Varer</span>
-		<span>Antall</span>
-		<span>Pris</span>
-	</div>
-	</div>
-</div>
+  <div class="sq-main-topp">
+    <!--Top liste-->
+    <div class="sq-flex sq-border-1">
+      <div class="margin-left-15">Varer</div>
+      <div class="margin-left-30">Antall</div>
+      <div class="margin-left-25">Pris</div>
+      <div class="sq-air-x-2">Total Pris</div>
+    </div>
+  </div>
+
+  <!--hoved "liste"-->
+  <div class="sq-main-middle sq-flex">
+    <div class="sq-flex sq-mt-2 sq-flex-column sq-border-1">
+      <!--Row 1-->
+      <div class="sq-flex-row sq-mb-1">
+
+        <!--Image Space-->
+        <div class="max-width-15">
+          <div class="sq-item-card sq-air-x-1"></div>
+        </div>
+
+        <!-- Item Beskrivelse-->
+        <div class="sq-align-items-center sq-flex sq-air-x-1 max-width-30">Her skal en beskrivelse av produktet </div>
+
+        <!--add and substract items-->
+        <div class="sq-flex-row max-width-30">
+
+          <!--the + button-->
+          <div class="sq-align-items-center sq-flex">
+            <button onclick="addItem()">
+              <svg id="i-plus" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M16 2 L16 30 M2 16 L30 16" />
+              </svg>
+            </button>
+          </div>
+
+          <!--The Input (change number)-->
+          <div class="sq-align-items-center sq-flex sq-mt-05">
+            <input class="sq-width-4 sq-border-1" type="number" id="theNumber">
+          </div>
+
+          <!--the - button-->
+          <div class="sq-align-items-center sq-flex">
+            <button onclick="substractItem()">
+              <svg id="i-minus" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M2 16 L30 16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="sq-align-items-center sq-flex sq-air-x-1">Pris </div>
+        <div class="sq-align-items-center sq-flex sq-air-x-1"> Total Pris </div>
+        <div class="sq-align-items-center sq-flex sq-air-x-1"> <button class="sq-height-2 sq-align-items-center">Delete</button> </div>
+      </div>
+
+      <!--End of Row 1-->
+
+      <!--Start of Row 2-->
+      <div class="sq-flex-row sq-mb-1">
+
+        <!--Image Space-->
+        <div class="max-width-15">
+          <div class="sq-item-card sq-air-x-1"></div>
+        </div>
+
+        <!-- Item Beskrivelse-->
+        <div class="sq-align-items-center sq-flex sq-air-x-1 max-width-30">Her skal en beskrivelse av produktet </div>
+
+        <!--add and substract items-->
+        <div class="sq-flex-row max-width-30">
+
+          <!--the + button-->
+          <div class="sq-align-items-center sq-flex">
+            <button onclick="addItem()">
+              <svg id="i-plus" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M16 2 L16 30 M2 16 L30 16" />
+              </svg>
+            </button>
+          </div>
+
+          <!--The Input (change number)-->
+          <div class="sq-align-items-center sq-flex sq-mt-05">
+            <input class="sq-width-4 sq-border-1" type="number" id="theNumber">
+          </div>
+
+          <!--the - button-->
+          <div class="sq-align-items-center sq-flex">
+            <button onclick="substractItem()">
+              <svg id="i-minus" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M2 16 L30 16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="sq-align-items-center sq-flex sq-air-x-1">Pris </div>
+        <div class="sq-align-items-center sq-flex sq-air-x-1"> Total Pris </div>
+        <div class="sq-align-items-center sq-flex sq-air-x-1"> <button class="sq-height-2 sq-align-items-center">Delete</button> </div>
+      </div>
+
+      <!--Sum-->
+      <div class="sq-flex-row sq-mb-1">
+        <div class="margin-left-90 sq-mt-1"> Sum </div>
+      </div>
+  </div>
+
+
+
+  <!--knapper-->
+  <div class="sq-main-bot sq-border-1">
+    <div class="sq-flex sq-mt-2">
+      <button class="sq-height-2 sq-align-items-center margin-left-15">Fortsett å handle</button>
+      <button class="sq-height-2 sq-align-items-center margin-left-30">Til Kassen</button>
+    </div>
+  </div>
 </div>
