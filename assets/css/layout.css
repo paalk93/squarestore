@@ -61,6 +61,8 @@
 .sq-panel-main-bottom{grid-area: 3 / 1 / span end / span end;}
 .sq-panel-main{grid-area: 1 / 1 / span end / span end;}
 
+
+
 /* Cards */
 .sq-card{
     display: grid;
