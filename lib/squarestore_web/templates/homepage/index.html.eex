@@ -1,8 +1,4 @@
-
-
-
 <div class="sq-main-layout">
-
   <div class="sq-grid-area-landing-slideshow sq-mt-1">
     <div class="sq-slideshow-container">
       <div class="sq-mySlides fade">
@@ -14,113 +10,101 @@
       <div class="sq-mySlides fade">
         <img src="\images\sea.jpg" alt="" style="width:100%">
       </div>
-      <a class="sq-prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="sq-next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="sq-prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="sq-next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="sq-dot" onclick="currentSlide(1)"></span>
+      <span class="sq-dot" onclick="currentSlide(2)"></span>
+      <span class="sq-dot" onclick="currentSlide(3)"></span>
+    </div>
   </div>
-  <br>
-  <div style="text-align:center">
-    <span class="sq-dot" onclick="currentSlide(1)"></span>
-    <span class="sq-dot" onclick="currentSlide(2)"></span>
-    <span class="sq-dot" onclick="currentSlide(3)"></span>
-  </div>
-</div>
-
   <div class="sq-grid-area-landing-campaign sq-text-center sq-mt-1">
     <h1>Some campaign here</h1>
   </div>
-
-<div class="sq-grid-area-landing-best sq-panel sq-flex-wrap sq-mt-1 sq-mb-1" style="justify-content:space-around;">
-  <div class="sq-landing-card sq-card sq-text-center">
-    <div class="sq-card-header">
-      <p>Super coffe mug</p>
+  <div class="sq-grid-area-landing-best sq-panel sq-flex-wrap sq-mt-1 sq-mb-1" style="justify-content:space-around;">
+    <div class="sq-landing-card sq-card sq-text-center">
+      <div class="sq-card-header">
+        <p>Super coffe mug</p>
+      </div>
+      <div class="sq-card-body">
+      </div>
+      <div class="sq-card-footer">
+        <p>Price:<del> $49.99</del> $29.99</p>
+      </div>
     </div>
-    <div class="sq-card-body">
-
+    <div class="sq-landing-card sq-card sq-text-center">
+      <div class="sq-card-header">
+        <p>Super coffe mug</p>
+      </div>
+      <div class="sq-card-body">
+      </div>
+      <div class="sq-card-footer">
+        <p>Price:<del> $49.99</del> $29.99</p>
+      </div>
     </div>
-    <div class="sq-card-footer">
-      <p>Price:<del> $49.99</del> $29.99</p>
+    <div class="sq-landing-card sq-card sq-text-center">
+      <div class="sq-card-header">
+        <p>Super coffe mug</p>
+      </div>
+      <div class="sq-card-body">
+      </div>
+      <div class="sq-card-footer">
+        <p>Price:<del> $49.99</del> $29.99</p>
+      </div>
     </div>
-  </div>
-  <div class="sq-landing-card sq-card sq-text-center">
-    <div class="sq-card-header">
-      <p>Super coffe mug</p>
-    </div>
-    <div class="sq-card-body">
-
-    </div>
-    <div class="sq-card-footer">
-      <p>Price:<del> $49.99</del> $29.99</p>
-    </div>
-  </div>
-  <div class="sq-landing-card sq-card sq-text-center">
-    <div class="sq-card-header">
-      <p>Super coffe mug</p>
-    </div>
-    <div class="sq-card-body">
-
-    </div>
-    <div class="sq-card-footer">
-      <p>Price:<del> $49.99</del> $29.99</p>
-    </div>
-  </div>
-  <div class="sq-landing-card sq-card sq-text-center">
-    <div class="sq-card-header">
-      <p>Super coffe mug</p>
-    </div>
-    <div class="sq-card-body">
-
-    </div>
-    <div class="sq-card-footer">
-      <p>Price:<del> $49.99</del> $29.99</p>
+    <div class="sq-landing-card sq-card sq-text-center">
+      <div class="sq-card-header">
+        <p>Super coffe mug</p>
+      </div>
+      <div class="sq-card-body">
+      </div>
+      <div class="sq-card-footer">
+        <p>Price:<del> $49.99</del> $29.99</p>
+      </div>
     </div>
   </div>
-</div>
-
-<div class="sq-grid-area-landing-news sq-panel sq-flex-wrap sq-mt-1 sq-mb-1" style="justify-content:space-evenly;">
-  <div class="sq-landing-card sq-card sq-text-center">
-    <div class="sq-card-header">
-      <p>Super coffe mug</p>
+  <div class="sq-grid-area-landing-news sq-panel sq-flex-wrap sq-mt-1 sq-mb-1" style="justify-content:space-evenly;">
+    <div class="sq-landing-card sq-card sq-text-center">
+      <div class="sq-card-header">
+        <p>Super coffe mug</p>
+      </div>
+      <div class="sq-card-body">
+      </div>
+      <div class="sq-card-footer">
+        <p>Price:<del> $49.99</del> $29.99</p>
+      </div>
     </div>
-    <div class="sq-card-body">
-
+    <div class="sq-landing-card sq-card sq-text-center">
+      <div class="sq-card-header">
+        <p>Super coffe mug</p>
+      </div>
+      <div class="sq-card-body">
+      </div>
+      <div class="sq-card-footer">
+        <p>Price:<del> $49.99</del> $29.99</p>
+      </div>
     </div>
-    <div class="sq-card-footer">
-      <p>Price:<del> $49.99</del> $29.99</p>
+    <div class="sq-landing-card sq-card sq-text-center">
+      <div class="sq-card-header">
+        <p>Super coffe mug</p>
+      </div>
+      <div class="sq-card-body">
+      </div>
+      <div class="sq-card-footer">
+        <p>Price:<del> $49.99</del> $29.99</p>
+      </div>
     </div>
-  </div>
-  <div class="sq-landing-card sq-card sq-text-center">
-    <div class="sq-card-header">
-      <p>Super coffe mug</p>
-    </div>
-    <div class="sq-card-body">
-
-    </div>
-    <div class="sq-card-footer">
-      <p>Price:<del> $49.99</del> $29.99</p>
-    </div>
-  </div>
-  <div class="sq-landing-card sq-card sq-text-center">
-    <div class="sq-card-header">
-      <p>Super coffe mug</p>
-    </div>
-    <div class="sq-card-body">
-
-    </div>
-    <div class="sq-card-footer">
-      <p>Price:<del> $49.99</del> $29.99</p>
-    </div>
-  </div>
-  <div class="sq-landing-card sq-card sq-text-center">
-    <div class="sq-card-header">
-      <p>Super coffe mug</p>
-    </div>
-    <div class="sq-card-body">
-
-    </div>
-    <div class="sq-card-footer">
-      <p>Price:<del> $49.99</del> $29.99</p>
+    <div class="sq-landing-card sq-card sq-text-center">
+      <div class="sq-card-header">
+        <p>Super coffe mug</p>
+      </div>
+      <div class="sq-card-body">
+      </div>
+      <div class="sq-card-footer">
+        <p>Price:<del> $49.99</del> $29.99</p>
+      </div>
     </div>
   </div>
-</div>
-
 </div>
