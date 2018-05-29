@@ -1,4 +1,4 @@
-<div class="sq-main-layout sq-primary">
+<div class="sq-main-layout">
 	<div class="sq-panel sq-admin-bruker-listepanel sq-black"  style="overflow-y: auto;">
 		<table class="sq-tables" width="100%">
 		  <tr>
