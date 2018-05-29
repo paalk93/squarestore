@@ -93,7 +93,10 @@ grid-area: 2 / 2 / span end / span end;
 }
 .sq-products-search-layout-area-panel{
   grid-area: 2 / 3 / span 1 / span 6; 
-  }
+}
+.sq-products-table-layout-area-panel{
+  grid-area: 3 / 3 / span end / span 6;
+}
 
 
 /* PK flex */
