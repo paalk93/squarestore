@@ -17,6 +17,7 @@ flex: 1;
     color: white;
     padding: 8px 15px;
     cursor: pointer;
+
 }
 
 /* Clear floats (clearfix hack) */
@@ -25,9 +26,12 @@ flex: 1;
     clear: both;
     display: table;
 }
+
 .sq-nav-btn-group button:not(:last-child) {
     border-right: none;
 }
+
+
 .sq-nav-btn-group button:hover {
     background-color: var(--secondary-transparancy);
 }
@@ -50,7 +54,13 @@ flex: 1;
 }
 
 /* 2nd NAV buttons*/
+
 .sq-btn-3 button {
+  background-color: var(--secondary); 
+  border: none; 
+  color: white; 
+  padding: 4px 20px; 
+  cursor: pointer; 
   background-color: var(--secondary);
   border: none;
   color: white;
@@ -78,13 +88,12 @@ flex: 1;
 .sq-nav-btn-group2 button:hover {
   background-color: var(--secondary-highlight);
 }
-
 /* PK products layout area classes */
 .sq-products-layout-area-button{
 grid-area:1 / 1 / span end / span 1;
 }
 .sq-products-layout-area-header{
-grid-area: 1 / 2 / span 1 /span end;
+grid-area: 1 / 2 / span 1 /span 7;
 }
 .sq-products-layout-area-cards{
 grid-area: 2 / 2 / span end / span end;
@@ -95,11 +104,7 @@ grid-area: 2 / 2 / span end / span end;
 .sq-products-table-layout-area-panel{
   grid-area: 3 / 2 / span end / span 7;
 }
-.sq-mr-4-7{ margin-right: 4.7em;}
-.sq-margin-auto{ margin: auto;}
-.sq-products-search-layout-area-panel{
-  grid-area: 2 / 3 / span 1 / span 6;
-  }
+.sq-mr-4-7{margin-right: 4.7em}
 /* PK flex */
 .sq-flex-wrap{
   flex-wrap:wrap;
@@ -127,7 +132,9 @@ grid-area: 2 / 2 / span end / span end;
   grid-area: 2 / 3 / span 3 / span 5;
 }
 
+
 /*Alex homepage css */
+
 
 .sq-grid-position-box{
   grid-area: 2 / 2 / span 2 / span 7;
