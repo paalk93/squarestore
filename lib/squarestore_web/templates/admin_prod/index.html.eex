@@ -6,47 +6,44 @@
                 <th>Produkt navn</th>
                 <th>Beskrivelse</th>
               </tr>
-              <tr>
+              <tr onclick="toggleModal()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr>
+              <tr onclick="toggleModal()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr>
+              <tr onclick="toggleModal()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr>
+              <tr onclick="toggleModal()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr>
+              <tr onclick="toggleModal()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr>
+              <tr onclick="toggleModal()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr>
+              <tr onclick="toggleModal()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
             </table>
-            <p>hver linje skal være klikkbar. skal åpne form</p>
-            
-<button class onclick="toggleModal()">Click me to open modal window</button>
 <div id="productNumber" class="sq-modal">
-    <div class="sq-modal-content">
+    <div class="sq-modal-content-admin-prod">
         <span class="sq-close-button" onclick="toggleModal()">&times;</span>
         <!--box-->
         <h3>produktnummer</h3>
