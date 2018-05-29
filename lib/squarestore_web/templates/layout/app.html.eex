@@ -69,9 +69,17 @@
     <main role="" class="sq-main">
     	<%= render @view_module, @view_template, assigns %>
     </main>
-	<footer>
+	<footer class="sq-secondary">
 		<p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
 		<p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+		<div style="justify-content: space-around; margin-top: -0.4rem;" class="sq-secondary sq-flex sq-flex-row sq-justify-center">
+			<div>Phone: <a href="tel:0000" class="sq-text-white sq-secondary">#########</a></div>
+			<div><a href="/about" class="sq-text-white sq-secondary">About </a></div>
+			<div><a href="/support" class="sq-text-white sq-secondary">Support</a></div>
+			<div><a href="/faq" class="sq-text-white sq-secondary">FAQ</a></div>
+			<div><a href="#" class="sq-text-white sq-secondary">Social media</a></div>
+			<div><a href="mailto:nobody@online.no" class="sq-text-white sq-secondary">Mail</a></div>
+		</div>
 	</footer>
     </div> <!-- /page -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
