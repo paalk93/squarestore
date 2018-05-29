@@ -12,7 +12,7 @@ img{
 }
 .shake.inline,
 h2.shake{display: inline-block;}
-h1,h2,p{color: rgb(00, 00, 00);}
+h1,h2,p{color: var(--text-base));}
 @-webkit-keyframes spaceboots{
     0%,
     100%{transform: translateX(0);}
