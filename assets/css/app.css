@@ -63,11 +63,19 @@ flex: 1;
   cursor: pointer; 
   
 }
+<<<<<<< HEAD
 
 .sq-btn-3 button:hover {
   background-color: var(--secondary-highlight);
 }
 
+=======
+
+.sq-btn-3 button:hover {
+  background-color: var(--secondary-highlight);
+}
+
+>>>>>>> cf755784decb1858bdb4223457cad390a12b973b
 .sq-nav-btn-group2 button {
   background-color: var(--secondary); 
   border: none; 
@@ -104,7 +112,9 @@ grid-area: 1 / 2 / span 1 /span end;
 .sq-products-layout-area-cards{
 grid-area: 2 / 2 / span end / span end;
 }
-
+.sq-products-search-layout-area-panel{
+  grid-area: 2 / 3 / span 1 / span 6; 
+  }
 
 
 /* PK flex */
