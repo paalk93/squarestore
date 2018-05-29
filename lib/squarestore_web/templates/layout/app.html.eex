@@ -73,7 +73,7 @@
 		<p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
 		<p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 	</footer>
-    </div> <!-- /container -->
+    </div> <!-- /page -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>

@@ -55,6 +55,19 @@ flex: 1;
 
 /* 2nd NAV buttons*/
 
+.sq-btn-3 button {
+  background-color: var(--secondary); 
+  border: none; 
+  color: white; 
+  padding: 4px 20px; 
+  cursor: pointer; 
+  
+}
+
+.sq-btn-3 button:hover {
+  background-color: var(--secondary-highlight);
+}
+
 .sq-nav-btn-group2 button {
   background-color: var(--secondary);
   border: none;
@@ -91,6 +104,10 @@ grid-area: 1 / 2 / span 1 /span end;
 .sq-products-layout-area-cards{
 grid-area: 2 / 2 / span end / span end;
 }
+
+.sq-products-search-layout-area-panel{
+  grid-area: 2 / 3 / span 1 / span 6; 
+  }
 /* PK flex */
 .sq-flex-wrap{
   flex-wrap:wrap;
@@ -162,6 +179,16 @@ padding: 0.2em;
   width: 35%;
   background-color: var(--background);
 }
+/*custom admin modal window for products*/
+.sq-modal-content-admin-prod{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30rem;
+  width: 30rem;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
   /* Bruker admin */
 .sq-admin-bruker-datapanel{
 	grid-area: 1 / 2 / span 2 / span 3;
@@ -183,3 +210,8 @@ padding: 0.2em;
   border:none;
   padding:0.5em;
 }
+/* overflow */
+.sq-overflow-hidden{ overflow: hidden;}
+
+.sq-overflow-scroll{overflow: scroll;}
+
