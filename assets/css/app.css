@@ -63,19 +63,11 @@ flex: 1;
   cursor: pointer; 
   
 }
-<<<<<<< HEAD
 
 .sq-btn-3 button:hover {
   background-color: var(--secondary-highlight);
 }
 
-=======
-
-.sq-btn-3 button:hover {
-  background-color: var(--secondary-highlight);
-}
-
->>>>>>> cf755784decb1858bdb4223457cad390a12b973b
 .sq-nav-btn-group2 button {
   background-color: var(--secondary); 
   border: none; 
