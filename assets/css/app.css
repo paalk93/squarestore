@@ -51,11 +51,11 @@ flex: 1;
 
 /* 2nd NAV buttons*/
 .sq-btn-3 button {
-  background-color: var(--secondary); 
-  border: none; 
-  color: white; 
-  padding: 4px 20px; 
-  cursor: pointer; 
+  background-color: var(--secondary);
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  cursor: pointer;
 }
 .sq-btn-3 button:hover {
   background-color: var(--secondary-highlight);
@@ -90,7 +90,7 @@ grid-area: 1 / 2 / span 1 /span end;
 grid-area: 2 / 2 / span end / span end;
 }
 .sq-products-search-layout-area-panel{
-  grid-area: 2 / 2 / span 1 / span 7; 
+  grid-area: 2 / 2 / span 1 / span 7;
 }
 .sq-products-table-layout-area-panel{
   grid-area: 3 / 2 / span end / span 7;
@@ -98,7 +98,7 @@ grid-area: 2 / 2 / span end / span end;
 .sq-mr-4-7{ margin-right: 4.7em;}
 .sq-margin-auto{ margin: auto;}
 .sq-products-search-layout-area-panel{
-  grid-area: 2 / 3 / span 1 / span 6; 
+  grid-area: 2 / 3 / span 1 / span 6;
   }
 /* PK flex */
 .sq-flex-wrap{
@@ -182,14 +182,17 @@ padding: 0.2em;
   /* Bruker admin */
 .sq-admin-bruker-datapanel{
 	grid-area: 1 / 2 / span 2 / span 3;
+	margin: 0.5em;
 }
 
 .sq-admin-bruker-listepanel{
 	grid-area: 3 / 2 / span 3 / span 7;
+	margin: 0.5em;
 }
 
 .sq-admin-bruker-logpanel{
 	grid-area: 1 / 6 / span 2 / span 3;
+	margin: 0.5em;
 }
 .sq-invoice-card{
   background-color: var(--background);
@@ -204,4 +207,3 @@ padding: 0.2em;
 .sq-overflow-hidden{ overflow: hidden;}
 
 .sq-overflow-scroll{overflow: scroll;}
-
