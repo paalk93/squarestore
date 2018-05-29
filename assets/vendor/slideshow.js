@@ -1,7 +1,9 @@
 var slideIndex = 1;
 (function(){
-  if (typeof(document.querySelector(".myslides") == "undefined")){return}
-  showSlides(slideIndex);
+  var grr = document.querySelector(".myslides");
+  if (typeof(grr) == "undefined"){return undefined}
+  else {
+  showSlides(slideIndex);}
 })()
 
 
