@@ -219,3 +219,57 @@ padding: 0.2em;
 .sq-overflow-hidden{ overflow: hidden;}
 
 .sq-overflow-scroll{overflow: scroll;}
+
+/* Bjørn og Thomas Shoppingcart */
+.sq-main-topp{
+	grid-area: 1 / 1 / 2 / 10;}
+.sq-main-middle{grid-area: 2 / 1 / 5 / 10;
+margin-top: -5rem; }
+.sq-main-bot{grid-area:5 / 1 / 5 / 10;}
+
+.sq-width-4{width:4em;}
+.sq-height-2{height:2em;}
+.sq-align-items-center{align-items:center;}
+.sq-align-items-end{align-items:flex-end;}
+
+.sq-item-card{
+  width:7rem;
+  height:7rem;
+  max-width: 7rem;
+  max-height: 7rem;
+  border:1px solid black;
+  margin-bottom: 0.5em;
+  }
+  .max-width-14{
+    max-width:14%;
+    width:13%;
+}
+.max-width-15{
+  max-width:15%;
+  width:14%;
+}
+
+.max-width-30{
+  max-width:30%;
+  width:29%;
+}
+.sq-ml-02{margin-left: 0.75em;}
+.sq-mt-09{margin-top: 0.9em;}
+.sq-ml-9{margin-left: 9em;}
+.sq-ml-10-5{margin-left: 10.5em;}
+.sq-ml-11{margin-left:11em;}
+.sq-ml-13{margin-left:13em;}
+.sq-ml-15{margin-left:15em;}
+.sq-ml-43-5{margin-left:43.5em;}
+.sq-mr-15{margin-right:15em;}
+
+ .sq-ml-85{margin-left:85%;}
+  .sq-flex-row{
+    display:flex;
+    flex-direction:row;
+  }
+
+  .sq-flex-column-s{
+    display:flex;
+    flex-direction:column;
+  }

@@ -27,6 +27,7 @@ defmodule SquarestoreWeb.Router do
       get "/adminprod", AdminProdController, :index
 	get "/brukerstyring", BrukerStyringController, :index
   get "/invoice", InvoiceController, :index
+  get "/shopping", ShoppingController, :index
   end
 
 
