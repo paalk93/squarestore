@@ -3,12 +3,13 @@
 <div class="sq-panel-main-top"> 
  <div class="sq-container sq-flex-row">
    
-        <div class="sq-card sq-flex-1 sq-background-secondary sq-b-border sq-border-1
+    <div class="sq-card sq-flex-1 sq-background-secondary sq-b-border sq-border-1
          sq-white sq-overflow-hidden">
-            <div class="sq-card-header">
-              <img class="sq-solid" style="max-width: 75px;max-height: 75px;" src="/images/user.png" alt="User"><br>
+        <div class="sq-card-header">
+            
+            <img class="sq-solid" style="max-width: 75px;max-height: 75px;" src="/images/user.png" alt="User"><br>
             </div>
-            <div class="sq-card sq-mt-4">
+            <div class="sq-card sq-mt-3">
                 <ul>
                 <li>Navn:</li>
                 <li>Adresse:</li>
@@ -16,20 +17,20 @@
                 <li>Telefon:</li>
                 </ul>
             
-                <div class="sq-justify-right sq-mt-05 sq-btn-3">
-                <button onclick="toggleModal()">Endre Informasjon</button>
+                <div class="sq-card-footer sq-btn-3">
+                <button onclick="toggleModal("sq-toggle-modal")">Endre Informasjon</button>
                 <div id="modalshow" class="sq-modal"></div>
                 <!--Modal code should fit here -->
-                </div>    
+            </div>    
                 
             </div>
 
 
-            </div>
+        </div>
             <div class=" sq-card sq-flex-auto">
             </div>
 
- </div>
+    </div>
 
 
 
@@ -45,7 +46,7 @@
 
 <div class="sq-air-y-1 ">
 
-<table border="2" class="sq-custom-table-position sq-white 
+<table border="2" class=" sq-tables sq-custom-table-position sq-white 
 sq-table-hover sq-table-row-padding-2">
 
 <thead><strong>Fakturaoversikt</strong></thead>
