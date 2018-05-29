@@ -101,4 +101,7 @@
 .sq-flex{
   display:flex;
 }
+.sq-shit{
+  flex-wrap:nowrap;
+}
 /* Flex end */
