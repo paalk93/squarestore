@@ -55,13 +55,26 @@ flex: 1;
 
 /* 2nd NAV buttons*/
 
-.sq-nav-btn-group2 button {
-  background-color: var(--secondary);
-  border: none;
-  color: white;
-  padding: 4px 20px;
-  cursor: pointer;
+.sq-btn-3 button {
+  background-color: var(--secondary); 
+  border: none; 
+  color: white; 
+  padding: 4px 20px; 
+  cursor: pointer; 
+  
+}
 
+.sq-btn-3 button:hover {
+  background-color: var(--secondary-highlight);
+}
+
+.sq-nav-btn-group2 button {
+  background-color: var(--secondary); 
+  border: none; 
+  color: white; 
+  padding: 4px 20px; 
+  cursor: pointer; 
+  
 }
 
 .sq-nav-btn-group2:after {
@@ -158,3 +171,8 @@ padding: 0.2em;
 .sq-admin-bruker-logpanel{
 	grid-area: 1 / 6 / span 2 / span 3;
 }
+
+/* overflow */
+.sq-overflow-hidden{ overflow: hidden;}
+
+.sq-overflow-scroll{overflow: scroll;}
