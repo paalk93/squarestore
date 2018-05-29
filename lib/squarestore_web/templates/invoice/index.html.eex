@@ -1,0 +1,82 @@
+<div class="sq-main-layout">
+  <div class="sq-layout-area-invoice">
+    <div class="sq-invoice-card sq-flexbox-column">
+      <div class="sq-flexbox-row sq-margin-1 sq-shadow-sm sq-b-border" style="justify-content:space-around;margin:0;padding:1em;background-color:lightgrey;border-color:grey;">
+        <button>Hold</button>
+        <button>Not in use</button>
+        <button>Cancel</button>
+      </div>
+      <div class="sq-flexbox-row sq-margin-1" style="justify-content:space-around;">
+        <div style="align-items:center;">
+          <p style="border:none;opacity:0.4">Billed to</p>
+          <p>Client name</p>
+          <p>1 Client address</p>
+          <p>City, State, Country</p>
+          <p>Zip code</p>
+        </div>
+        <div>
+          <p style="opacity:0.4">Invoice number</p>
+          <p>000000</p>
+          <p style="opacity:0.4">KID number</p>
+          <p>123456789</p>
+        </div>
+        <div>
+          <p style="opacity:0.4">Date of issue</p>
+          <p>28.05.2018</p>
+          <p style="opacity:0.4">Due date</p>
+          <p>27.07.2018</p>
+        </div>
+      </div>
+      <div class="sq-flexbox-row sq-margin-1">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:20rem;">Description</th>
+              <th>Unit cost</th>
+              <th>Qty</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Unit description</td>
+              <td>2999kr</td>
+              <td>1</td>
+              <td>2999kr</td>
+            </tr>
+            <tr>
+              <td>Unit description</td>
+              <td>589kr</td>
+              <td>5</td>
+              <td>2945kr</td>
+            </tr>
+            <tr>
+              <td>Unit description</td>
+              <td>19kr</td>
+              <td>12</td>
+              <td>228kr</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td style="opacity:0.4">Subtotal</td>
+              <td>6172kr</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td style="opacity:0.4">Taxes</td>
+              <td>925.8kr</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td style="opacity:0.4">Sum total</td>
+              <td>7097.8kr</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
