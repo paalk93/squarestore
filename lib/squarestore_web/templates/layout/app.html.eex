@@ -29,7 +29,7 @@
 				<div class="sq-flex-1"></div>
 				<!-- Searchbar -->
 				<div class="sq-flex-auto sq-form">
-					<input type="text" placeholder="Search..." name="search"	style="width: 80%; height: 100%; margin-top: -0.5em; margin-right: 5em; margin-left: -3em;">
+					<input type="text" placeholder="Search..." name="search" class="sq-nav-margin">
 				</div>
 				<!--ShoppingCart & SignIn buttons -->
 				<div class="sq-flex-1 sq-text-right">
