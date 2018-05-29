@@ -19,6 +19,8 @@
           <p>000000</p>
           <p style="opacity:0.4">KID number</p>
           <p>123456789</p>
+          <p style="opacity:0.4">To account</p>
+          <p>1234 5679 101112</p>
         </div>
         <div>
           <p style="opacity:0.4">Date of issue</p>
