@@ -1,4 +1,3 @@
-
 <div class="sq-main-layout">
   <div class="sq-main-topp">
     <!--Top liste-->
@@ -11,7 +10,7 @@
   </div>
 
   <!--hoved "liste"-->
-  <div class="sq-main-middle sq-flex">
+  <div class="sq-main-middle">
     <div class="sq-flex sq-mt-2 sq-flex-column sq-border-1">
       <!--Row 1-->
       <div class="sq-flex-row sq-mb-1">
