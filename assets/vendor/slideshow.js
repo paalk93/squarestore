@@ -1,5 +1,10 @@
 var slideIndex = 1;
-showSlides(slideIndex);
+(function(){
+  if (typeof(document.querySelector(".myslides") == "undefined")){return}
+  showSlides(slideIndex);
+})()
+
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);

@@ -1,6 +1,6 @@
-<div class="sq-main-layout sq-primary">
+<div class="sq-main-layout">
 	<div class="sq-panel sq-admin-bruker-listepanel sq-black"  style="overflow-y: auto;">
-		<table width="100%">
+		<table class="sq-tables" width="100%">
 		  <tr>
 			<th>Sortme 1</th>
   		    <th>Sortme 2</th>
@@ -127,10 +127,10 @@
 			<td></td>
 			<td></td>
 		  </tr>
-		</table>
+	  </table>
 	</div>
 	<div class="sq-panel sq-admin-bruker-datapanel sq-black">
-		<table>
+		<table class="sq-tables">
 			<tbody>
 				<tr>
 					<td>Name</td><td>Gunnar</td>
@@ -146,7 +146,7 @@
 		</table>
 	</div>
 	<div class="sq-panel sq-admin-bruker-logpanel sq-black" style="overflow-y: auto;">
-		<table width="100%">
+		<table class="sq-tables">
 		  <tr>
 		    <th>Sortme 1</th>
 		    <th>Sortme 2</th>
