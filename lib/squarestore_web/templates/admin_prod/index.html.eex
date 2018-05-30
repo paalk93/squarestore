@@ -6,37 +6,37 @@
                 <th>Produkt navn</th>
                 <th>Beskrivelse</th>
               </tr>
-              <tr onclick="toggleModal()">
+              <tr onclick="toggleModal4()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr onclick="toggleModal()">
+              <tr onclick="toggleModal4()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr onclick="toggleModal()">
+              <tr onclick="toggleModal4()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr onclick="toggleModal()">
+              <tr onclick="toggleModal4()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr onclick="toggleModal()">
+              <tr onclick="toggleModal4()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr onclick="toggleModal()">
+              <tr onclick="toggleModal4()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
               </tr>
-              <tr onclick="toggleModal()">
+              <tr onclick="toggleModal4()">
                 <td class="sq-table-row-padding-05">produktnummer</td>
                 <td>Kaffekopp 42</td>
                 <td>Rund å vannjtætt livets kopp</td>
@@ -44,7 +44,7 @@
             </table>
 <div id="productNumber" class="sq-modal">
     <div class="sq-modal-content-admin-prod">
-        <span class="sq-close-button" onclick="toggleModal()">&times;</span>
+        <span class="sq-close-button" onclick="toggleModal4()">&times;</span>
         <!--box-->
         <h3>produktnummer</h3>
         <p>product name</p>
@@ -57,7 +57,7 @@
 </div>
 </div>
 <script>
-function toggleModal(productNumber){
+function toggleModal4(productNumber){
     var modal = document.getElementById("productNumber");
     modal.classList.toggle("sq-show-modal");
 }</script>
