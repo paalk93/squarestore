@@ -27,3 +27,22 @@ window.toggleModal=(id)=> {
     alert("moo")
 };
 
+function toggleModal3(changeInfo) {
+    var change = document.getElementById("changeInfo");
+    change
+        .classList
+        .toggle("sq-show-modal");
+}
+function toggleModal4(productNumber) {
+    var modal = document.getElementById("productNumber");
+    modal
+        .classList
+        .toggle("sq-show-modal");
+}
+window.toggleModal2=(socialMedia)=> {
+    var social = document.getElementById("socialMedia");
+    social
+        .classList
+        .toggle("sq-show-modal");
+}
+
