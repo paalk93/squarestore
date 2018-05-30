@@ -18,15 +18,22 @@
                 </ul>
             
                 <div class="sq-card-footer sq-btn-3">
-                <button onclick="toggleModal("sq-toggle-modal")">Endre Informasjon</button>
-                <div id="modalshow" class="sq-modal"></div>
-                <!--Modal code should fit here -->
-            </div>    
-                
-            </div>
+  <button onclick="toggleModal3()">Endre Informasjon</button>
+                <div id="modalshow" class="sq-modal-user-page">
+                    <div class="sq-modal-content-user-page">
+                        <span class="sq-close-button" onclick="toggleModal3(modalShow)">&times;</span>
+                         <!--box-->
+                         <h3>produktnummer</h3>
+                    </div>
+                </div>
 
-
-        </div>
+	<script>
+		function toggleModal3(modalShow){
+   		 var show = document.getElementById("modalShow");
+   	 	show.classList.toggle("sq-show-modal");
+		}
+		</script>
+            
             <div class=" sq-card sq-flex-auto">
             </div>
 
@@ -91,3 +98,10 @@ sq-table-hover sq-table-row-padding-2">
 </div>
 
 </div>
+
+	<script>
+		function toggleModal3(changeInfo){
+   		 var change = document.getElementById("changeInfo");
+   	 	change.classList.toggle("sq-show-modal");
+		}
+		</script>
