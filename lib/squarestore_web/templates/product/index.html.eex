@@ -3,7 +3,6 @@
 </div>
 <div class="sq-p-logpanel sq-panel sq-flex-row">
 	<div class=" sq-flex-column sq-flex " style="min-width:75%;">
-		<table>
 			<ul>
 				<li>Passer hager opp til 500 m²</li>
 				<li>2 til 5 cm klippehøyde</li>
@@ -11,7 +10,6 @@
 				<li>Høy sikkerhet</li>
 				<li>God batterikapasitet</li>
 			</ul>
-		</table>
 		<a href="http://www.prisjakt.no" class=" sq-margin-2">Sammenlign priser på Prisjakt.no</a>
 	</div>
 	<div class=" sq-flex-column sq-flex sq-p-align-end" style="min-width:25%;">
