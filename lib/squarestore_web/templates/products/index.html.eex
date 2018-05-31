@@ -20,10 +20,58 @@
           <button>Buy</button>
         </div>
       </div>
-      <div class="sq-product-card sq-card"></div>
-      <div class="sq-product-card sq-card"></div>
-      <div class="sq-product-card sq-card"></div>
-      <div class="sq-product-card sq-card"></div>
+      <div class="sq-product-card sq-card">
+        <div class="sq-card-header sq-text-center">
+          <p>Our amazing Coffee Cup</p>
+        </div>
+        <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+          <img src="/images/user.png" class="sq-product-img">
+        </div>
+        <div class="sq-card-footer sq-text-center">
+          <p class="sq-display-inline-block">Price: $19.99</p>
+          <button class="sq-margin-05">Info</button>
+          <button>Buy</button>
+        </div>
+      </div>
+      <div class="sq-product-card sq-card">
+        <div class="sq-card-header sq-text-center">
+          <p>Our amazing Coffee Cup</p>
+        </div>
+        <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+          <img src="/images/user.png" class="sq-product-img">
+        </div>
+        <div class="sq-card-footer sq-text-center">
+          <p class="sq-display-inline-block">Price: $19.99</p>
+          <button class="sq-margin-05">Info</button>
+          <button>Buy</button>
+        </div>
+      </div>
+      <div class="sq-product-card sq-card">
+        <div class="sq-card-header sq-text-center">
+          <p>Our amazing Coffee Cup</p>
+        </div>
+        <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+          <img src="/images/user.png" class="sq-product-img">
+        </div>
+        <div class="sq-card-footer sq-text-center">
+          <p class="sq-display-inline-block">Price: $19.99</p>
+          <button class="sq-margin-05">Info</button>
+          <button>Buy</button>
+        </div>
+      </div>
+      <div class="sq-product-card sq-card">
+        <div class="sq-card-header sq-text-center">
+          <p>Our amazing Coffee Cup</p>
+        </div>
+        <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
+          <img src="/images/user.png" class="sq-product-img">
+        </div>
+        <div class="sq-card-footer sq-text-center">
+          <p class="sq-display-inline-block">Price: $19.99</p>
+          <button class="sq-margin-05">Info</button>
+          <button>Buy</button>
+        </div>
+      </div>
       <div class="sq-product-card sq-card"></div>
       <div class="sq-product-card sq-card"></div>
       <div class="sq-product-card sq-card"></div>
