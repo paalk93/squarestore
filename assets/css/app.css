@@ -109,6 +109,12 @@ grid-area: 2 / 2 / span end / span end;
 .sq-products-table-layout-area-panel{
   grid-area: 3 / 2 / span end / span 7;
 }
+.sq-product-card{
+  height:20rem;
+  width:20rem;
+  background-color:lightgrey;
+  margin:0.5em;
+}
 .sq-mr-4-7{margin-right: 4.7em}
 /* PK flex */
 .sq-flex-wrap{
@@ -323,7 +329,7 @@ grid-area: 2 / 2 / span end / span end;
   margin-top: 0rem;
 }
 
-/* Footer Bottom */ 
+/* Footer Bottom */
 
 .sq-b-footer {
   position: fixed;
@@ -336,10 +342,10 @@ grid-area: 2 / 2 / span end / span end;
 }
 
 .sq-1-3-grid{
- 
+
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 15% 1fr 5%  ;
-  height:100vh;  
+  height:100vh;
 
 }
