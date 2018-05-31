@@ -34,9 +34,6 @@
   				<!--ShoppingCart & SignIn buttons -->
   				<div class="sq-flex-1 sq-text-right">
   					<div class="sq-air-x-05 sq-nav-btn-group2 sq-flex-1">
-
-						<!--Register button-->
-						<button onclick="toggleModal('register')">Register</button>
         			<!-- UserButton -->
         			<button onclick="toggleModal('myModal')">
           			<svg id="i-user" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -126,76 +123,6 @@
     </div>
     <!-- /page -->
 
-<!--Register modal start-->
-<div class="sq-modal" id="register">
-    <div class="sq-modal-body" style="width:40rem;">
-        <header>
-            <div class="sq-close-button" onclick="toggleModal('register')">&times;</div>
-        </header>
-        <div class="sq-modal-content">
-            <form class="sq-form" action="index.html" method="post" type="text">
-                <h1 class="sq-text-center">Tabs
-                    <span class="sq-subtext">Maddafakka</span>
-                </h1>
-                <div class="sq-container sq-flex-row sq-justify-center">
-
-                    <div class="sq-tabs">
-                        <input type="radio" id="tab-1" name="tab-group-1" checked>
-                        <label for="tab-1">Personalia</label>
-                        <div class="sq-tab">
-                            <fieldset>
-                                <legend>Personalia</legend>
-                                <label>Country</label>
-                                <input type="text" name="" value="" placeholder="Country">
-                                <label>First Name</label>
-                                <input type="text" name="" value="" placeholder="First name">
-                                <label>Last name</label>
-                                <input type="text" name="" value="" placeholder="Last name">
-                                <label>Date of birth</label>
-                                <input type="date" name="" value="">
-                            </fieldset>
-                        </div>
-                    </div>
-                    <div class="sq-tabs">
-                        <input type="radio" id="tab-2" name="tab-group-1">
-                        <label for="tab-2">Adress</label>
-                        <div class="sq-tab">
-                            <fieldset>
-                                <legend>Adress</legend>
-                                <label>Adress</label>
-                                <input type="text" name="" value="" placeholder="Adress">
-                                <label>AreaCode</label>
-                                <input type="text" name="" value="" placeholder="AreaCode">
-                                <label>Phone</label>
-                                <input type="text" name="" value="" placeholder="Phone">
-                            </fieldset>
-                        </div>
-                    </div>
-                    <div class="sq-tabs">
-                        <input type="radio" id="tab-3" name="tab-group-1">
-                        <label for="tab-3">Email/Password</label>
-                        <div class="sq-tab">
-                            <fieldset>
-                                <legend>Email/Password</legend>
-                                <label>E-mail</label>
-                                <input type="text" name="" value="" placeholder="E-mail">
-                                <label>Password</label>
-                                <input type="text" name="" value="" placeholder="Password">
-                                <label>Retype Password</label>
-                                <input type="text" name="" value="" placeholder="Retype Password">
-                            </fieldset>
-                        </div>
-                    </div>
-                </div>
-            </form>
-            <div class="sq-text-center">
-                <button onclick="window.location.href='/userpage'" type="submit" class="sq-btn">Register</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Register modal ends-->
-
 	<!--login modal -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 	<div class="sq-modal" id="myModal" >
@@ -218,11 +145,11 @@
 												<button type="button" name="">Login</button>
 										</div>
 									</a>
-								
+									<a href="/reguser">
 										<div class="sq-justify-right">
-											<button onclick="toggleModal('myModal')" type="button" name="">cancel</button>
+											<button type="button" name="">New user</button>
 										</div>
-									
+									</a>
 	          					</div>
 	        				</fieldset>
 						</form>

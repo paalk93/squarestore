@@ -73,6 +73,7 @@
     margin:.5rem;
 }
 .sq-card-header{grid-area: 1 / 1 / span 1 / span end;}
+.sq-card-body{grid-area: 2 / 1 / span 1 / span end;}
 .sq-card-footer{grid-area: 3 / 1 / span 1 / span end;}
 .sq-card-body-footer{grid-area: 2 / 1 / span end / span 1}
 .sq-card-body-header{grid-area: 1 / 1 / span 2 / span 1}

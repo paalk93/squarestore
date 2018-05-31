@@ -1,5 +1,5 @@
-<button onclick="toggleModal('register')">Click here to trigger the modal!</button>
-<div class="sq-modal" id="register">
+<button onclick="toggleModal('myModal')">Click here to trigger the modal!</button>
+<div class="sq-modal" id="myModal">
     <div class="sq-modal-body" style="width:40rem;">
         <header>
             <div class="sq-close-button" onclick="toggleModal('myModal')">&times;</div>

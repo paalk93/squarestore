@@ -1,10 +1,10 @@
 
   
     <!--Top liste-->
-    <div class="sq-flex sq-mt-3">
+    <div class="sq-flex sq-mt-4">
       <div class="sq-ml-11">Varer</div>
-      <div class="sq-ml-43-5">Antall</div>
-      <div class="sq-ml-13">Pris</div>
+      <div class="sq-ml-43">Antall</div>
+      <div class="sq-ml-13-5">Pris</div>
       <div class="sq-ml-15">Total Pris</div>
     </div>
  
@@ -27,7 +27,6 @@
         <div class="sq-flex-row">
           <!--the - button-->
           <div class="sq-align-items-center sq-flex">
-            <button onclick="minus()">
             <button onclick="addItem()">
               <svg id="i-minus" viewBox="0 0 32 32" width="23" height="22.5" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                 <path d="M2 16 L30 16"/>
@@ -37,12 +36,7 @@
           <!--The Input (change number)-->
           <div class="sq-align-items-center sq-flex sq-mt-1">
             <input class="sq-width-4 sq-border-1" type="number" id="count">
-          </div>
-          <!--the + button-->
-          <div class="sq-align-items-center sq-flex">
-            <button id="plus" onclick="plus()">
-            <input class="sq-width-4 sq-border-1" type="number" id="theNumber">
-          </div>
+          </div
           <!--the + button-->
           <div class="sq-align-items-center sq-flex">
             <button onclick="substractItem()">

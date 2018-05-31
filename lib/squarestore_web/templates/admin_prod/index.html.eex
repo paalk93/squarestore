@@ -1,63 +1,65 @@
 <div class="sq-main-layout">
-<div Style="grid-area:  1 / 2 / span 5 / span 7; ">
-<table class="sq-mt-1 sq-border-collapse sq-tables sq-table-hover sq-table-misc-arrow-up sq-custom-table-position">
-              <tr>
-                <th>Produktnummer</th>
-                <th>Produkt navn</th>
-                <th>Beskrivelse</th>
-              </tr>
-              <tr onclick="toggleModal()">
-                <td class="sq-table-row-padding-05">produktnummer</td>
-                <td>Kaffekopp 42</td>
-                <td>Rund å vannjtætt livets kopp</td>
-              </tr>
-              <tr onclick="toggleModal()">
-                <td class="sq-table-row-padding-05">produktnummer</td>
-                <td>Kaffekopp 42</td>
-                <td>Rund å vannjtætt livets kopp</td>
-              </tr>
-              <tr onclick="toggleModal()">
-                <td class="sq-table-row-padding-05">produktnummer</td>
-                <td>Kaffekopp 42</td>
-                <td>Rund å vannjtætt livets kopp</td>
-              </tr>
-              <tr onclick="toggleModal()">
-                <td class="sq-table-row-padding-05">produktnummer</td>
-                <td>Kaffekopp 42</td>
-                <td>Rund å vannjtætt livets kopp</td>
-              </tr>
-              <tr onclick="toggleModal()">
-                <td class="sq-table-row-padding-05">produktnummer</td>
-                <td>Kaffekopp 42</td>
-                <td>Rund å vannjtætt livets kopp</td>
-              </tr>
-              <tr onclick="toggleModal()">
-                <td class="sq-table-row-padding-05">produktnummer</td>
-                <td>Kaffekopp 42</td>
-                <td>Rund å vannjtætt livets kopp</td>
-              </tr>
-              <tr onclick="toggleModal()">
-                <td class="sq-table-row-padding-05">produktnummer</td>
-                <td>Kaffekopp 42</td>
-                <td>Rund å vannjtætt livets kopp</td>
-              </tr>
-            </table>
-<div id="productNumber" class="sq-modal">
-    <div class="sq-modal-content-admin-prod">
-        <span class="sq-close-button" onclick="toggleModal()">&times;</span>
+  <div Style="grid-area:  1 / 2 / span 5 / span 7; ">
+    <table class="sq-mt-1 sq-border-collapse sq-tables sq-table-hover sq-table-misc-arrow-up sq-custom-table-position">
+      <tr>
+        <th>Produktnummer</th>
+        <th>Produkt navn</th>
+        <th>Beskrivelse</th>
+      </tr>
+      <tr onclick="toggleModal4()">
+        <td class="sq-table-row-padding-05">produktnummer</td>
+        <td>Kaffekopp 42</td>
+        <td>Rund å vannjtætt livets kopp</td>
+      </tr>
+      <tr onclick="toggleModal4()">
+        <td class="sq-table-row-padding-05">produktnummer</td>
+        <td>Kaffekopp 42</td>
+        <td>Rund å vannjtætt livets kopp</td>
+      </tr>
+      <tr onclick="toggleModal4()">
+        <td class="sq-table-row-padding-05">produktnummer</td>
+        <td>Kaffekopp 42</td>
+        <td>Rund å vannjtætt livets kopp</td>
+      </tr>
+      <tr onclick="toggleModal4()">
+        <td class="sq-table-row-padding-05">produktnummer</td>
+        <td>Kaffekopp 42</td>
+        <td>Rund å vannjtætt livets kopp</td>
+      </tr>
+      <tr onclick="toggleModal4()">
+        <td class="sq-table-row-padding-05">produktnummer</td>
+        <td>Kaffekopp 42</td>
+        <td>Rund å vannjtætt livets kopp</td>
+      </tr>
+      <tr onclick="toggleModal4()">
+        <td class="sq-table-row-padding-05">produktnummer</td>
+        <td>Kaffekopp 42</td>
+        <td>Rund å vannjtætt livets kopp</td>
+      </tr>
+      <tr onclick="toggleModal4()">
+        <td class="sq-table-row-padding-05">produktnummer</td>
+        <td>Kaffekopp 42</td>
+        <td>Rund å vannjtætt livets kopp</td>
+      </tr>
+    </table>
+    <div id="productNumber" class="sq-modal">
+      <div class="sq-modal-content-admin-prod">
+        <span class="sq-close-button" onclick="toggleModal4()">&times;</span>
         <!--box-->
         <h3>produktnummer</h3>
         <p>product name</p>
         <form action="submit">
-        quantity:  <input type="text" name="quantity" style="margin-left: 10px;"></input><br>
-        active product: <input type="checkbox"> </input><br>
-        <input type="submit" value="save"></input>
+          quantity:  <input type="text" name="quantity" style="margin-left: 10px;"></input><br>
+          active product: <input type="checkbox"> </input><br>
+          <input type="submit" value="save"></input>
         </form>
+      </div>
     </div>
-</div>
+  </div>
 </div>
 <script>
-function toggleModal(productNumber){
-    var modal = document.getElementById("productNumber");
-    modal.classList.toggle("sq-show-modal");
-}</script>
+  function toggleModal4(productNumber){
+      var modal = document.getElementById("productNumber");
+      modal.classList.toggle("sq-show-modal");
+  }
+</script>
