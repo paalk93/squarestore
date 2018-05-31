@@ -115,6 +115,10 @@ grid-area: 2 / 2 / span end / span end;
   background-color:lightgrey;
   margin:0.5em;
 }
+.sq-product-img{
+  width:12em;
+  height:12em;
+}
 .sq-mr-4-7{margin-right: 4.7em}
 /* PK flex */
 .sq-flex-wrap{
@@ -128,11 +132,19 @@ grid-area: 2 / 2 / span end / span end;
   display:flex;
   flex-direction:column;
 }
+.sq-align-center{
+  align-items:center;
+}
+.sq-justify-space-between{
+  justify-content:space-between;
+}
+.sq-display-inline-block{
+  display:inline-block;
+}
 /* Invoice layout area */
 .sq-layout-area-invoice{
   grid-area: 2 / 3 / span 3 / span 5;
 }
-
 /*Alex homepage css */
 .sq-grid-area-landing-slideshow{
   grid-area: 1 / 2 / span 2 / span 7;
