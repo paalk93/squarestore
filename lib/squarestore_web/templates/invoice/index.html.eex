@@ -30,10 +30,10 @@
         </div>
       </div>
       <div class="sq-flexbox-row sq-margin-1">
-        <table class="sq-text-center">
+        <table>
           <thead>
             <tr>
-              <th style="width:15em;">Description</th>
+              <th style="width:20rem;">Description</th>
               <th>Unit cost</th>
               <th>Qty</th>
               <th>Total</th>
