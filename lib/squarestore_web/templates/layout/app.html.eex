@@ -12,7 +12,7 @@
   </head>
 
   <body class="sq-viewport">
-  <div class="sq-page">
+  <div class="sq-1-3-grid">
     <nav class="sq-nav-area">
       <div role="navigation" class="sq-navbar-layout">
   		<div class="sq-navbar-nav  sq-secondary sq-text-right">
