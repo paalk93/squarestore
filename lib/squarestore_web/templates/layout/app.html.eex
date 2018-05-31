@@ -55,13 +55,13 @@
   			<!--NAVBAR Part 3/3 -->
   			<div class="sq-navbar-links sq-secondary-highlight sq-text-center">
   				<div class="sq-nav-btn-group">
-  					<Button>Categories</Button>
-  					<button>Some really cool things</button>
-  					<button>Some products</button>
-  					<button>other products</button>
-  					<button>other products</button>
-  					<button>All Products</button>
-  					<button>Campaign products</button>
+  					<Button onclick="location.href='http://localhost:4000/categories'">Categories</Button>
+            <button onclick="location.href='http://localhost:4000/products'">Products</button>
+  					<button onclick="location.href='http://localhost:4000/products'">White Kopps</button>
+  					<button onclick="location.href='http://localhost:4000/products'">Big Black Kopps</button>
+  					<button onclick="location.href='http://localhost:4000/products'">Bestselgere</button>
+  					<button onclick="location.href='http://localhost:4000/products'">Kampanjer</button>
+  					<button onclick="location.href='http://localhost:4000/userpage'">User Page</button>
   				</div>
   			</div>
   		</div>
