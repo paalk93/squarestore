@@ -13,6 +13,9 @@
   }
 
   /*Containers end*/
+.sq-tables{
+	border-collapse: collapse;
+}
   .sq-tables th, .sq-tables td{
     border:solid 1px black;
     padding:0.5em;

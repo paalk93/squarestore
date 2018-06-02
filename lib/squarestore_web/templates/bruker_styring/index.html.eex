@@ -11,32 +11,22 @@
 				</tr>
 			</thead>
 			<tbody>
+				<%= for user <- @users do %>
 				<tr>
-					<td>#1</td>
-					<td>Cato</td>
-					<td>Slideshow</td>
-					<td>Norge</td>
-					<td>30.05.2018</td>
+					<td> <%= user.id %> </td>
+					<td> <%= user.fname %>  </td>
+					<td> <%= user.lname %></td>
+					<td> <%= user.phone %></td>
+					<td> <%= user.email %></td>
 				</tr>
+				<% end %>
 			</tbody>
 
 	  </table>
 	</div>
 	<div class="sq-panel sq-admin-bruker-datapanel sq-black">
-		<table class="sq-tables">
-			<tbody>
-				<tr>
-					<td>Name</td><td>Gunnar</td>
-				</tr>
-				<tr>
-					<td>Adresse</td><td>Rognposeveien 47</td>
-				</tr>
-				<tr>
-					<td>Telefon</td><td>+69 66696999</td>
-				</tr>
+		<%= @user.fname %> <%= @user.lname %>
 
-			</tbody>
-		</table>
 	</div>
 	<div class="sq-panel sq-admin-bruker-logpanel sq-black" style="overflow-y: auto;">
 		<table class="sq-tables">
