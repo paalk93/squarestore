@@ -1,3 +1,108 @@
+<div class="sq-main-layout">
+	<div class="sq-panel sq-admin-bruker-listepanel sq-black"  style="overflow-y: auto;">
+		<table class="sq-tables" width="100%">
+			<thead>
+				<tr>
+					<th>Kundenr</th>
+					<th>Fornavn</th>
+					<th>Etternavn</th>
+					<th>Telefon</th>
+					<th>E-post</th>
+				</tr>
+			</thead>
+			<tbody>
+				<%= for user <- @users do %>
+				<tr>
+					<td> <%= user.id %> </td>
+					<td> <%= user.fname %>  </td>
+					<td> <%= user.lname %></td>
+					<td> <%= user.phone %></td>
+					<td> <%= user.email %></td>
+				</tr>
+				<% end %>
+			</tbody>
+
+	  </table>
+	</div>
+	<div class="sq-panel sq-admin-bruker-datapanel sq-black">
+		<dd> <%= @user.fname %> <%= @user.lname %> </dd>
+	</div>
+	<div class="sq-panel sq-admin-bruker-logpanel sq-black" style="overflow-y: auto;">
+		<table class="sq-tables">
+		  <tr>
+		    <th>fakturanr</th>
+		    <th>ordre</th>
+		    <th>dato</th>
+		    <th>Sum</th>
+		    <th>betalt</th>
+		  </tr>
+		  <tr>
+		    <td>#1</td>
+		    <td>#1</td>
+		    <td>01.06.2018</td>
+		    <td>kr 0,-</td>
+		    <td>Nei</td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		    <td></td>
+		  </tr>
+		</table>
+	</div>
+</div>
+
 <table>
-<dd> <%= @user.fname %> <%= @user.lname %> </dd>
+
 </table>

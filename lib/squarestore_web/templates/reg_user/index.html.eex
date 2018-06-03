@@ -1,10 +1,11 @@
-<button onclick="toggleModal('myModal')">Click here to trigger the modal!</button>
+<!-- <button onclick="toggleModal('myModal')">Click here to trigger the modal!</button>
 <div class="sq-modal" id="myModal">
     <div class="sq-modal-body" style="width:40rem;">
         <header>
             <div class="sq-close-button" onclick="toggleModal('myModal')">&times;</div>
         </header>
-        <div class="sq-modal-content">
+        <div class="sq-modal-content"> -->
+		<%= form_for @changeset, @action, fn f -> %>
             <form class="sq-form" action="index.html" method="post" type="text">
                 <h1 class="sq-text-center">Tabs
                     <span class="sq-subtext">Maddafakka</span>
@@ -60,9 +61,10 @@
                     </div>
                 </div>
             </form>
-            <div class="sq-text-center">
                 <button onclick="window.location.href='/homepage'" type="submit" class="sq-btn">Register</button>
+				<% end %>
+				<!-- <div class="sq-text-center">
             </div>
         </div>
     </div>
-</div>
+</div> -->

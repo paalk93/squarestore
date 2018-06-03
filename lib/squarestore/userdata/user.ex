@@ -12,11 +12,11 @@ defmodule Squarestore.Userdata.User do
 		field :wishlist, :map
 		timestamps()
 	end
-	# def changeset(user, attrs) do
-	# 	Logger.debug("userdata #{inspect(user)}")
-	# 	user
-	# 	|> cast(attrs, [:fname, :lname, :phone, :email, :password, :wishlist])
-    # 	|> validate_required([:fname, :lname, :email])
-	# end
+	def changeset(user, attrs) do
+		Logger.debug("userdata #{inspect(user)}")
+		user
+		|> cast(attrs, [:fname, :lname, :phone, :email, :password, :wishlist])
+    	|> validate_required([:fname, :lname, :email])
+	end
 
 end
