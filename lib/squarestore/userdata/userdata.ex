@@ -22,6 +22,10 @@ defmodule Squarestore.Userdata do
 		 Repo.get!(User, id)
 	end
 
+	def kill_user(user) do
+		Repo.get!(User, user)
+		|>Repo.delete()
+	end
 
 
 end
