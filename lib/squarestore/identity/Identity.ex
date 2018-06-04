@@ -1,11 +1,11 @@
-defmodule Squarestore.Userdata do
+defmodule Squarestore.Identity do
 
 #Importing functions
 	import Ecto.Query
 
 #Setting up Aliases
 	alias Squarestore.Repo
-	alias Squarestore.Userdata.User
+	alias Squarestore.Identity.User
 
 #Add a new user
 	def add_user(userdata \\ %{}) do

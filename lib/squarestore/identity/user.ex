@@ -1,4 +1,4 @@
-defmodule Squarestore.Userdata.User do
+defmodule Squarestore.Identity.User do
 # adding in needed functions
 	use Ecto.Schema
 	import Ecto.Changeset
@@ -13,7 +13,7 @@ defmodule Squarestore.Userdata.User do
 		timestamps()
 	end
 	def changeset(user, attrs) do
-		Logger.debug("userdata #{inspect(user)}")
+		Logger.debug("user #{inspect(user)}")
 		user
 		|> cast(attrs, [:fname, :lname, :phone, :email, :password, :wishlist])
     	|> validate_required([:fname, :lname, :email])
