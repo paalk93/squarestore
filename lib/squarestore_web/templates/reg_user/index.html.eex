@@ -31,12 +31,12 @@
                     </div>
                     <div class="sq-tabs">
                         <input type="radio" id="tab-2" name="tab-group-1">
-                        <label for="tab-2">Adress</label>
+                        <label for="tab-2">Address</label>
                         <div class="sq-tab">
                             <fieldset>
-                                <legend>Adress</legend>
-                                <label>Adress</label>
-                                <input type="text" name="" value="" placeholder="Adress">
+                                <legend>Address</legend>
+                                <label>Address</label>
+                                <input type="text" name="" value="" placeholder="Address">
                                 <label>AreaCode</label>
                                 <input type="text" name="" value="" placeholder="AreaCode">
                                 <label>Phone</label>

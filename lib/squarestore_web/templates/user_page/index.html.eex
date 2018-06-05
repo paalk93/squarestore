@@ -8,8 +8,8 @@
         <div class="sq-card sq-mt-3">
           <ul>
             <li>Navn:</li>
-            <li>Adresse:</li>
-            <li>Faktura-Adresse:</li>
+            <li>Addresse:</li>
+            <li>Faktura-Addresse:</li>
             <li>Telefon:</li>
           </ul>
           <div class="sq-card-footer sq-btn-3">

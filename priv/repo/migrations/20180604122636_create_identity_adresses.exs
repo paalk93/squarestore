@@ -1,4 +1,4 @@
-defmodule Squarestore.Repo.Migrations.CreateIdentityAdresses do
+defmodule Squarestore.Repo.Migrations.CreateIdentityAddresses do
   use Ecto.Migration
 
   def change do
