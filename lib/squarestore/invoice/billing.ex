@@ -11,7 +11,7 @@ defmodule Squarestore.Invoice.Billing do
     field :expiry_month, :integer
     field :expiry_year, :integer
     field :invoice_address, :integer
-    field :user_id, :id
+    field :user_id, :integer
 
     timestamps()
   end

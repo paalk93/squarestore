@@ -7,11 +7,9 @@ defmodule Squarestore.Repo.Migrations.CreateInvoices do
       add :shipping_address, :integer
       add :invoice_address, :integer
       add :product_id, :map
-      add :user_id, references(:"users:integer", on_delete: :nothing)
+      add :user_id, :integer
 
       timestamps()
     end
-
-    create index(:invoices, [:user_id])
   end
 end

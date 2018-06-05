@@ -8,7 +8,7 @@ defmodule Squarestore.Identity.Address do
     field :city, :string
     field :country, :string
     field :zip_code, :integer
-    field :user_id, :id
+    field :user_id, :integer
 
     timestamps()
   end

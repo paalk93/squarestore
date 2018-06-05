@@ -8,7 +8,7 @@ defmodule Squarestore.Invoice.Invoices do
     field :product_id, :map
     field :shipping_address, :integer
     field :total_sum, :decimal
-    field :user_id, :id
+    field :user_id, :integer
 
     timestamps()
   end

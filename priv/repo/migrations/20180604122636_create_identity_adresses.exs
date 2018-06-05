@@ -7,11 +7,9 @@ defmodule Squarestore.Repo.Migrations.CreateIdentityAddresses do
       add :country, :string
       add :city, :string
       add :zip_code, :integer
-      add :user_id, references(:users, on_delete: :nothing)
+      add :user_id, :integer
 
       timestamps()
     end
-
-    create index(:identity_addresses, [:user_id])
   end
 end

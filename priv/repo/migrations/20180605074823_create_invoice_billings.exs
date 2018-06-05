@@ -10,11 +10,9 @@ defmodule Squarestore.Repo.Migrations.CreateInvoiceBillings do
       add :ccv, :integer
       add :card_type, :string
       add :invoice_address, :integer
-      add :user_id, references(:users, on_delete: :nothing)
+      add :user_id, :integer
 
       timestamps()
     end
-
-    create index(:invoice_billings, [:user_id])
   end
 end
