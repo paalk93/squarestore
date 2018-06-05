@@ -16,7 +16,7 @@ defmodule Squarestore.Identity.Address do
   @doc false
   def changeset(address, attrs) do
     address
-    |> cast(attrs, [:address, :country, :city, :zip_code])
-    |> validate_required([:address, :country, :city, :zip_code])
+    |> cast(attrs, [:address, :country, :city, :zip_code , :user_id])
+    |> validate_required([:address, :country, :city, :zip_code, :user_id])
   end
 end

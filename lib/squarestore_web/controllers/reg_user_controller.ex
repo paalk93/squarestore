@@ -4,7 +4,6 @@ defmodule SquarestoreWeb.RegUserController do
     alias Squarestore.Userdata.User
 
     def index(conn, _params) do
-		changeset = Userdata.add_user(%User{})
-	    render conn, "index.html", changeset: changeset
+	    render conn, "index.html"
     end
 end
