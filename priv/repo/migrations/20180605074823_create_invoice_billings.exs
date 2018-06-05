@@ -1,0 +1,20 @@
+defmodule Squarestore.Repo.Migrations.CreateInvoiceBillings do
+  use Ecto.Migration
+
+  def change do
+    create table(:invoice_billings) do
+      add :card_number, :string
+      add :expiry_month, :integer
+      add :expiry_year, :integer
+      add :card_holder, :string
+      add :ccv, :integer
+      add :card_type, :string
+      add :invoice_address, :integer
+      add :user_id, references(:users, on_delete: :nothing)
+
+      timestamps()
+    end
+
+    create index(:invoice_billings, [:user_id])
+  end
+end

@@ -22,7 +22,7 @@ defmodule Squarestore.Identity do
 		 Repo.get!(User, id)
 	end
 
-	def kill_user(user) do
+	def remove_user(user) do
 		Repo.get!(User, user)
 		|>Repo.delete()
 	end
