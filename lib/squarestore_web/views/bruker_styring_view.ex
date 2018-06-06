@@ -1,3 +1,3 @@
 defmodule SquarestoreWeb.BrukerStyringView do
-  use SquarestoreWeb, :view
+	use SquarestoreWeb, :view
 end

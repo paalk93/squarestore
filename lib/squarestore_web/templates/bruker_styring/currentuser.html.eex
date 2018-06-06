@@ -26,6 +26,9 @@
 	</div>
 	<div class="sq-panel sq-admin-bruker-datapanel sq-black">
 		<dd> <%= @user.fname %> <%= @user.lname %> </dd>
+		<%= for address <- @user_address do %>
+		<dd> <%= @user_address %> </dd>
+		<% end %>
 	</div>
 	<div class="sq-panel sq-admin-bruker-logpanel sq-black" style="overflow-y: auto;">
 		<table class="sq-tables">
