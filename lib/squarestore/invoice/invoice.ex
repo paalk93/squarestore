@@ -1,22 +1,20 @@
-defmodule Squarestore.Invoice.Invoices do
-  use Ecto.Schema
-  import Ecto.Changeset
+defmodule Squarestore.Invoice do
+#importing functions
+	import Ecto.Query
+#Setting up aliases
+	alias Squarestore.Invoice
+	alias Squarestore.Invoice.Invoices
+	alias Squarestore.Invoice.Billing
+	alias Squarestore.Identity.User
+	alias Squarestore.Identity
+	alias Ecto.Multi
 
+	#Add a new payment card
 
-  schema "invoices" do
-    field :invoice_address, :integer
-    field :product_id, :map
-    field :shipping_address, :integer
-    field :total_sum, :decimal
-    field :user_id, :integer
-
-    timestamps()
-  end
-
-  @doc false
-  def changeset(invoice, attrs) do
-    invoice
-    |> cast(attrs, [:total_sum, :shipping_address, :invoice_address, :product_id])
-    |> validate_required([:total_sum, :shipping_address, :invoice_address, :product_id])
-  end
+	def add_card (id, card_details \\ %{}) do
+		%Billing{}
+		|> Map.merge(card_details, %{user_id: Kernel.elem(id, 1).id})
+		|> Billing.changeset()
+		|> Repo.insert()
+	end
 end
