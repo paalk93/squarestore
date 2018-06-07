@@ -22,7 +22,7 @@ defmodule Squarestore.Identity do
 		Map.merge(userdata, %{user_id: Kernel.elem(id, 1).id})
 	end
 
-	def add_user(userdata \\ %{}) do
+	def add_user(userdata) do
 		%User{}
 		|> User.changeset(userdata)
 		|> Repo.insert()
