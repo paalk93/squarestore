@@ -2,7 +2,7 @@ defmodule Squarestore.Repo.Migrations.CreateInvoiceBillings do
   use Ecto.Migration
 
   def change do
-    create table(:invoice_billings) do
+    create table(:billing) do
       add :card_number, :string
       add :expiry_month, :integer
       add :expiry_year, :integer

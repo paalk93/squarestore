@@ -14,7 +14,7 @@ defmodule Squarestore.Identity do
 #Add a new user
 	def create_user(userdata) do
 		Multi.new
-		|> Identity.add_user(userdata)
+		|> Identity.add_user()
 		|> Identity.id_to_userid(userdata)
 		|> Identity.add_address()
 	end

@@ -1,9 +1,10 @@
 defmodule Squarestore.Invoice.Billing do
   use Ecto.Schema
   import Ecto.Changeset
+  require Logger
 
 
-  schema "invoice_billings" do
+  schema "billings" do
     field :card_holder, :string
     field :card_number, :string
     field :card_type, :string
@@ -18,6 +19,7 @@ defmodule Squarestore.Invoice.Billing do
 
   @doc false
   def changeset(billing, attrs) do
+	Logger.debug("billing #{inspect(billing)}")
     billing
     |> cast(attrs, [:card_number, :expiry_month, :expiry_year, :card_holder, :ccv, :card_type, :invoice_address])
     |> validate_required([:card_number, :expiry_month, :expiry_year, :card_holder, :ccv, :card_type, :invoice_address])
