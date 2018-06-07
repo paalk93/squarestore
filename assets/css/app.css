@@ -176,6 +176,7 @@ grid-area: 2 / 2 / span end / span end;
 }
   /* Bruker admin */
 .sq-admin-bruker-datapanel{
+	flex-direction: column;
 	grid-area: 1 / 2 / span 2 / span 3;
 	margin: 0.5em;
 }

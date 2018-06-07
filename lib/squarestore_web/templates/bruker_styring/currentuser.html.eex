@@ -25,10 +25,27 @@
 	  </table>
 	</div>
 	<div class="sq-panel sq-admin-bruker-datapanel sq-black">
-		<dd> <%= @user.fname %> <%= @user.lname %> </dd>
-		<%= for address <- @user_address do %>
-		<dd> <%= @user_address %> </dd>
-		<% end %>
+		<h1><%= @user.fname %> <%= @user.lname %></h1><br>
+		<table class="sq-tables">
+			<thead>
+				<tr>
+					<th>Road</th>
+					<th>Zip code</th>
+					<th>City</th>
+					<th>Country</th>
+				</tr>
+			</thead>
+			<tbody>
+				<%= for address <- @user_address do %>
+					<tr>
+						<td> <%= address.address %>  </td>
+						<td> <%= address.zip_code %></td>
+						<td> <%= address.city %></td>
+						<td> <%= address.country %></td>
+					</tr>
+				<% end %>
+			</tbody>
+		</table>
 	</div>
 	<div class="sq-panel sq-admin-bruker-logpanel sq-black" style="overflow-y: auto;">
 		<table class="sq-tables">

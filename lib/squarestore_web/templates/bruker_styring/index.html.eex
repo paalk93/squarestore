@@ -1,1 +1,37 @@
-	<%= render @conn, :show, @user %>
+<div class="sq-main-layout">
+	<div class="sq-panel sq-admin-bruker-listepanel sq-black"  style="overflow-y: auto;">
+		<table class="sq-tables" width="100%">
+			<thead>
+				<tr>
+					<th>Kundenr</th>
+					<th>Fornavn</th>
+					<th>Etternavn</th>
+					<th>Telefon</th>
+					<th>E-post</th>
+				</tr>
+			</thead>
+			<tbody>
+				<%= for user <- @users do %>
+				<tr>
+					<td> <%= user.id %> </td>
+					<td> <%= user.fname %>  </td>
+					<td> <%= user.lname %></td>
+					<td> <%= user.phone %></td>
+					<td> <%= user.email %></td>
+				</tr>
+				<% end %>
+			</tbody>
+
+	  </table>
+	</div>
+	<div class="sq-panel sq-admin-bruker-datapanel sq-black">
+		<h1>User Information<br>
+	</div>
+	<div class="sq-panel sq-admin-bruker-logpanel sq-black" style="overflow-y: auto;">
+		<h1>Invoices</h1>
+	</div>
+</div>
+
+<table>
+
+</table>

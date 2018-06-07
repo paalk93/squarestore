@@ -8,13 +8,18 @@ defmodule Squarestore.Identity do
 	alias Squarestore.Identity
 	alias Squarestore.Identity.User
 	alias Squarestore.Identity.Address
+	alias Ecto.Multi
 	require Logger
 
 #Add a new user
 	def create_user(userdata) do
-		returnvalue = Identity.add_user(userdata)
-		Map.merge(userdata, %{user_id: Kernel.elem(returnvalue, 1).id})
+		Multi.new
+		|> Identity.add_user(userdata)
+		|> Identity.id_to_userid(userdata)
 		|> Identity.add_address()
+	end
+	def id_to_userid(id, userdata) do
+		Map.merge(userdata, %{user_id: Kernel.elem(id, 1).id})
 	end
 
 	def add_user(userdata \\ %{}) do
@@ -39,20 +44,11 @@ defmodule Squarestore.Identity do
 		 Repo.get!(User, id)
 	end
 
-
-
-
-	def get_address_list(id) do
-		query = from u in "identity_addresses", where: u.user_id == ^Kernel.elem(Integer.parse(id), 0), select: u.id
+	def get_address!(id) do
+		user_id = Kernel.elem(Integer.parse(id), 0)
+		query = from u in "identity_addresses", where: u.user_id == ^user_id, select: [:address, :country, :city, :zip_code]
 		Repo.all(query)
 	end
-	def get_address!(id) do
-		adr_list = Identity.get_address_list(id)
-		for a <- adr_list do
-			Repo.get!(Address, a)
-		end
-	end
-
 
 	def remove_user(user) do
 		Repo.get!(User, user)
