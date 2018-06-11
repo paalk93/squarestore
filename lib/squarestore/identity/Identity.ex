@@ -2,6 +2,7 @@ defmodule Squarestore.Identity do
 
 #Importing functions
 	import Ecto.Query
+	import Ecto.Association
 
 #Setting up Aliases
 	alias Squarestore.Repo
@@ -13,13 +14,14 @@ defmodule Squarestore.Identity do
 
 #Add a new user
 	def create_user(userdata) do
-		Multi.new
-		|> Identity.add_user()
-		|> Identity.id_to_userid(userdata)
-		|> Identity.add_address()
-	end
-	def id_to_userid(id, userdata) do
-		Map.merge(userdata, %{user_id: Kernel.elem(id, 1).id})
+		# address = %Address{}
+		# |> Address.changeset(userdata)
+		# Logger.debug("user_address = #{inspect(user_address)}")
+		user = %User{}
+		|> Map.put(userdata, {:addresses, userdata})
+		# Logger.debug("user_address = #{inspect(user)}")
+		|> User.changeset(userdata)
+		# # |> Repo.insert!()
 	end
 
 	def add_user(userdata) do

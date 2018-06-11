@@ -3,20 +3,20 @@ defmodule Squarestore.Identity.Address do
   import Ecto.Changeset
 
 
-  schema "identity_addresses" do
+  schema "addresses" do
     field :address, :string
     field :city, :string
     field :country, :string
     field :zip_code, :integer
-    field :user_id, :integer
 
+	belongs_to :user, Squarestore.Identity.User
     timestamps()
   end
 
   @doc false
   def changeset(address, attrs) do
     address
-    |> cast(attrs, [:address, :country, :city, :zip_code , :user_id])
-    |> validate_required([:address, :country, :city, :zip_code, :user_id])
+    |> cast(attrs, [:address, :country, :city, :zip_code, :user_id])
+    |> validate_required([:address, :country, :city, :zip_code])
   end
 end
