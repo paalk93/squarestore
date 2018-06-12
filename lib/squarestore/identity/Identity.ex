@@ -14,14 +14,22 @@ defmodule Squarestore.Identity do
 
 #Add a new user
 	def create_user(userdata) do
-		# address = %Address{}
-		# |> Address.changeset(userdata)
+
 		# Logger.debug("user_address = #{inspect(user_address)}")
-		user = %User{}
-		|> Map.put(userdata, {:addresses, userdata})
-		# Logger.debug("user_address = #{inspect(user)}")
-		|> User.changeset(userdata)
-		# # |> Repo.insert!()
+		userdata = Map.put(userdata, :user_id, nil)
+		address = %Address{}
+		|> Address.changeset(userdata)
+
+
+
+
+
+		user = %User{fname: userdata.fname, lname: userdata.lname, phone: userdata.fname, email: userdata.email, password: userdata.password, wishlist: userdata.wishlist, addresses: [address]}
+
+
+		# %User{}
+		# |> User.changeset(user)
+		Repo.insert!(user)
 	end
 
 	def add_user(userdata) do

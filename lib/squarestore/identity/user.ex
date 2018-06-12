@@ -17,15 +17,14 @@ defmodule Squarestore.Identity.User do
 	def changeset(user, attrs) do
 		# Logger.debug("user #{inspect(user)}")
 		user
-		|> Squarestore.Repo.preload(:addresses)
+		# |> Squarestore.Repo.preload(:address)
 		|> cast_assoc(:addresses)
 		|> cast(attrs, [:fname, :lname, :phone, :email, :password, :wishlist, :addresses])
 
-		# |> cast_assoc(:addresses)
     	# |> validate_required([:fname, :lname, :email])
 	end
 
 end
 
 
-# , [:address, :country, :city, :zip_code] 
+# , [:address, :country, :city, :zip_code]
