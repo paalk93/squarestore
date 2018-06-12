@@ -16,7 +16,21 @@ defmodule Squarestore.Identity.Address do
   @doc false
   def changeset(address, attrs) do
     address
-    |> cast(attrs, [:address, :country, :city, :zip_code, :user_id])
+    |> cast_assoc(attrs, [:address, :country, :city, :zip_code, :user_id])
     |> validate_required([:address, :country, :city, :zip_code])
+
   end
+
+#   def changeset(address, attrs) do
+# 	address
+# 	|> cast(attrs, [:address, :country, :city, :zip_code, :user_id])
+# 	|> validate_required([:address, :country, :city, :zip_code])
+# 	# build_assoc(user, :addresses, [addr])
+	# end
 end
+
+
+# |> Squarestore.Repo.preload(:addresses)
+# |> cast(attrs, [:fname, :lname, :phone, :email, :password, :wishlist])
+# |> validate_required([:fname, :lname, :email])
+# |> put_change(:addresses, [addr])

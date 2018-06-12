@@ -20,28 +20,22 @@ defmodule Squarestore.Identity do
 		address = %Address{}
 		|> Address.changeset(userdata)
 
-
-
-
-
-		user = %User{fname: userdata.fname, lname: userdata.lname, phone: userdata.fname, email: userdata.email, password: userdata.password, wishlist: userdata.wishlist, addresses: [address]}
-
-
-		# %User{}
-		# |> User.changeset(user)
-		Repo.insert!(user)
-	end
-
-	def add_user(userdata) do
 		%User{}
-		|> User.changeset(userdata)
+		|> User.changeset(userdata, address)
 		|> Repo.insert()
 	end
 
-	def add_address(addressdata \\ %{}) do
+	def add_address(addressdata \\ %{}, id) do
+		user = Repo.get!(User, id)
+		|>Ecto.build_assoc(:addresses, addressdata)
+
 		%Address{}
-		|>Address.changeset(addressdata)
+		|>Address.changeset(user)
 		|>Repo.insert()
+
+
+		# Logger.debug("\n******\n\n\naddress = #{inspect(address)}\n\n\n*******\n")
+
 	end
 
 
@@ -51,7 +45,7 @@ defmodule Squarestore.Identity do
 	end
 #Get a single user
 	 def get_user!(id) do
-		 Repo.get!(User, id)
+		 Repo.get!(User, id) |> Repo.preload(:addresses)
 	end
 
 	def get_address!(id) do

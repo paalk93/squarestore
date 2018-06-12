@@ -14,14 +14,14 @@ defmodule Squarestore.Identity.User do
 		has_many :addresses, Squarestore.Identity.Address
 		timestamps()
 	end
-	def changeset(user, attrs) do
+	def changeset(user, attrs, addr) do
 		# Logger.debug("user #{inspect(user)}")
 		user
-		# |> Squarestore.Repo.preload(:address)
-		|> cast_assoc(:addresses)
-		|> cast(attrs, [:fname, :lname, :phone, :email, :password, :wishlist, :addresses])
+		|> Squarestore.Repo.preload(:addresses)
+		|> cast(attrs, [:fname, :lname, :phone, :email, :password, :wishlist])
+		|> validate_required([:fname, :lname, :email])
+		|> put_change(:addresses, [addr])
 
-    	# |> validate_required([:fname, :lname, :email])
 	end
 
 end
