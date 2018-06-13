@@ -26,19 +26,9 @@ defmodule Squarestore.Identity do
 	end
 
 	def add_address(addressdata \\ %{}, id) do
-		user = Repo.get!(User, id)
-		|>Ecto.build_assoc(:addresses, addressdata)
-
-		%Address{}
-		|>Address.changeset(user)
-		|>Repo.insert()
-
-
-		# Logger.debug("\n******\n\n\naddress = #{inspect(address)}\n\n\n*******\n")
-
+		Address.changeset(User, id, addressdata)
+		|> Repo.insert()
 	end
-
-
 #Get all the CreateUsers
 	def list_users do
 		Repo.all(User)
