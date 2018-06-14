@@ -36,7 +36,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<%= for address <- @user_address do %>
+				<%= for address <- @user.addresses do %>
 					<tr>
 						<td> <%= address.address %>  </td>
 						<td> <%= address.zip_code %></td>
