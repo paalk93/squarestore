@@ -59,8 +59,6 @@ defmodule Squarestore.Identity do
 			query = from u in "users", where: u.fname == ^term, select: [:id]
 			Repo.all(query)
 		end
-
-
 	end
 
 	def remove_user(user) do

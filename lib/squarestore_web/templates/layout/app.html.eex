@@ -124,7 +124,8 @@
     </div>
     <!-- /page -->
 	<!-- Register modal -->
-	<div class="sq-modal" id="register">
+	<%= render SquarestoreWeb.Shared.RegisterView, "_register.html", assigns %>
+	<!-- <div class="sq-modal" id="register">
 	    <div class="sq-modal-body" style="width:40rem;">
 	        <header>
 	            <div class="sq-close-button" onclick="toggleModal('register')">&times;</div>
@@ -190,7 +191,7 @@
 	            </div>
 	        </div>
 	    </div>
-	</div>
+	</div> -->
 	<!--login modal -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 	<div class="sq-modal" id="myModal" >
