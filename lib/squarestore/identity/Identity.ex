@@ -40,8 +40,27 @@ defmodule Squarestore.Identity do
 
 	def get_address!(id) do
 		user_id = Kernel.elem(Integer.parse(id), 0)
-		query = from u in "identity_addresses", where: u.user_id == ^user_id, select: [:address, :country, :city, :zip_code]
+		query = from u in "addresses", where: u.user_id == ^user_id, select: [:address, :country, :city, :zip_code]
 		Repo.all(query)
+	end
+	def finduser(name) do
+		query = from u in "users", where: u.fname == ^name, select: [:id]
+		Repo.all(query)
+	end
+	def finduser(term) do
+		IO.puts("Error: You really shouldn't have done that")
+	end
+	def finduser(term , key) do
+		if key == :lname do
+			query = from u in "users", where: u.lname == ^term, select: [:id]
+			Repo.all(query)
+		end
+		if key == :fname do
+			query = from u in "users", where: u.fname == ^term, select: [:id]
+			Repo.all(query)
+		end
+
+
 	end
 
 	def remove_user(user) do
