@@ -1,7 +1,7 @@
 :root{
     --text-base: #333;
     --text-white: #fafafa;
-    --primary: #0088ce;
+    --primary: #1399dd;
     --primary-highlight: #e8eff7;
     --secondary: #2a5c99;
     --secondary-transparancy: #ddd;
@@ -17,9 +17,9 @@
     --danger: #f93131;
     --danger-highlight: #f91919;
     --black: #0c0c0c;
-    --grey: #777;
+    --grey: #d6d6d6;
     --white: #fafafa;
-    --muted: #999;
+    --muted: #b7b7b7;
     --muted-highlight: #666;
     --divider: #d6d6ff;
 
