@@ -112,7 +112,7 @@ grid-area: 2 / 2 / span end / span end;
 .sq-product-card{
   height:20rem;
   width:20rem;
-  background-color:lightgrey;
+  background-color: var(--primary-highlight);
   margin:0.5em;
 }
 .sq-product-img{
