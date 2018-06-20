@@ -362,5 +362,17 @@ grid-area: 2 / 2 / span end / span end;
   grid-template-columns: 1fr;
   grid-template-rows: 15% 1fr 5%  ;
   height:100vh;
+}
+/* ShoppingCart styling */
 
+.sq-shoppingcart-pic{
+	width: 12rem;
+	display: flex;
+}
+.sq-shoppingcart-card{
+  width:25rem;
+  height:10rem;
+  background-color: var(--background);
+  margin:0;
+  display: flex;
 }
