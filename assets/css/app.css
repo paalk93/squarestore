@@ -138,8 +138,8 @@ grid-area: 2 / 2 / span end / span end;
 .sq-align-center{
   align-items:center;
 }
-.sq-justify-space-between{
-  justify-content:space-between;
+.sq-justify-space-evenly{
+  justify-content:space-evenly;
 }
 .sq-display-inline-block{
   display:inline-block;
