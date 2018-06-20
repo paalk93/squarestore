@@ -27,8 +27,6 @@
 								<input type="text" name="" value="" placeholder="First name">
 								<label>Last name</label>
 								<input type="text" name="" value="" placeholder="Last name">
-								<label>Date of birth</label>
-								<input type="date" name="" value="">
 							</fieldset>
 						</div>
 					</div>
