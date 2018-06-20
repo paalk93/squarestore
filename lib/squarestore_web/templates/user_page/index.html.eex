@@ -39,10 +39,15 @@
       <div class="sq-card"></div>
     </div>
     <div class="sq-air-y-1">
-      <table border="2" class=" sq-tables sq-border-collapse sq-custom-table-position sq-white sq-table-hover sq-table-row-padding-2">
+      <table border="2" class=" sq-tables sq-custom-table-position sq-white sq-table-hover sq-table-row-padding-2">
+        <colgroup>
+        <col span="3" style="display: none;">
+        <col style="display: none;">
+      </colgroup>
         <thead><strong>Fakturaoversikt</strong></thead>
-        <tr>
-          <th>Faktura Nr:</th>
+
+          <tr class="sq-collapsible" >
+          <th >Faktura Nr:</th>
           <th>Forfalls dato:</th>
           <th>Utsendelses dato:</th>
           <th>Totalt:</th>
@@ -51,28 +56,56 @@
           <th>KID:</th>
           <th>Betalt:</th>
         </tr>
-        <tr>
-          <td>1</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>5</td>
-        </tr>
+          <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
       </table>
     </div>
   </div>

@@ -44,4 +44,3 @@ window.toggleModal2=(socialMedia)=> {
         .classList
         .toggle("sq-show-modal");
 }
-
