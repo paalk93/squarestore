@@ -14,7 +14,7 @@
         <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
           <img src="/images/user.png" class="sq-product-img">
         </div>
-        <div class="sq-card-footer sq-text-center">
+        <div class="sq-card-footer sq-text-center  sq-nav-btn-group">
           <p class="sq-display-inline-block">Price: $19.99</p>
           <button class="sq-margin-05">Info</button>
           <button>Buy</button>
@@ -27,7 +27,7 @@
         <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
           <img src="/images/user.png" class="sq-product-img">
         </div>
-        <div class="sq-card-footer sq-text-center">
+        <div class="sq-card-footer sq-text-center  sq-nav-btn-group">
           <p class="sq-display-inline-block">Price: $19.99</p>
           <button class="sq-margin-05">Info</button>
           <button>Buy</button>
@@ -40,7 +40,7 @@
         <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
           <img src="/images/user.png" class="sq-product-img">
         </div>
-        <div class="sq-card-footer sq-text-center">
+        <div class="sq-card-footer sq-text-center  sq-nav-btn-group">
           <p class="sq-display-inline-block">Price: $19.99</p>
           <button class="sq-margin-05">Info</button>
           <button>Buy</button>
@@ -53,7 +53,7 @@
         <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
           <img src="/images/user.png" class="sq-product-img">
         </div>
-        <div class="sq-card-footer sq-text-center">
+        <div class="sq-card-footer sq-text-center  sq-nav-btn-group">
           <p class="sq-display-inline-block">Price: $19.99</p>
           <button class="sq-margin-05">Info</button>
           <button>Buy</button>
@@ -66,7 +66,7 @@
         <div class="sq-card-body sq-flexbox-row sq-align-center sq-justify-center">
           <img src="/images/user.png" class="sq-product-img">
         </div>
-        <div class="sq-card-footer sq-text-center">
+        <div class="sq-card-footer sq-text-center  sq-nav-btn-group">
           <p class="sq-display-inline-block">Price: $19.99</p>
           <button class="sq-margin-05">Info</button>
           <button>Buy</button>
