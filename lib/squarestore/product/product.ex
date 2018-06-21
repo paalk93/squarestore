@@ -15,4 +15,23 @@ defmodule Squarestore.Product do
     |> Products.changeset(attrs)
     |> Repo.insert
   end
+
+  def change_product(%Products{} = products) do
+      Products.changeset(products, %{})
+  end
+
+  def delete_product(%Products{} = product) do
+      Repo.delete(product)
+  end
+
+  def update_product(%Products{} = product, attrs) do
+    product
+    |> Products.changeset(attrs)
+    |> Repo.update()
+  end
+
+  def change_product(%Products{} = product) do
+    Products.changeset(product, %{})
+  end
+
 end

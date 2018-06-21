@@ -6,12 +6,9 @@
 	<div class=" sq-flex-column sq-flex " style="min-width:75%;">
       <h3><%= @product.name %></h3>
 			<ul>
+        <li>Product number: <%= @product.pnr %></li>
         <li><%= @product.summary %></li>
-				<li>Passer hager opp til 500 m²</li>
-				<li>2 til 5 cm klippehøyde</li>
-				<li>Følsomme sensorer</li>
-				<li>Høy sikkerhet</li>
-				<li>God batterikapasitet</li>
+        <li>In storage: <%= @product.storage_status %></li>
 			</ul>
 		<a href="http://www.prisjakt.no" class=" sq-margin-2">Sammenlign priser på Prisjakt.no</a>
 	</div>
