@@ -30,8 +30,5 @@ defmodule Squarestore.Product do
     |> Repo.update()
   end
 
-  def change_product(%Products{} = product) do
-    Products.changeset(product, %{})
-  end
 
 end

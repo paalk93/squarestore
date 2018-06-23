@@ -22,10 +22,10 @@
 <table class="sq-tables" width="100%" style="text-align:center">
   <thead>
     <tr>
-      <th>First Name</th>
-      <th>LastName</th>
-      <th>Email</th>
-      <th>Phone</th>
+      <th>Adress</th>
+      <th>Post Number</th>
+      <th>City</th>
+      <th>Country</th>
     </tr>
   </thead>
   <tbody>

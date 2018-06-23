@@ -15,12 +15,12 @@ defmodule Squarestore.Identity.User do
     timestamps()
   end
 
-  def changeset(user, attrs) do
+  def changeset(user, attrs \\ %{}) do
     user
     |> Squarestore.Repo.preload(:adress)
     |> cast(attrs, [:fname, :lname, :phone, :email, :password, :wishlist])
-    |> validate_required([:fname, :lname, :phone, :email, :password])
     |> cast_assoc(:adress)
+    |> validate_required([:fname, :lname, :phone, :email, :password])
   end
 
 end
