@@ -31,6 +31,8 @@ defmodule SquarestoreWeb.BrukerStyringController do
         conn
         |> put_flash(:info, "User created successfully.")
         |> redirect(to: bruker_styring_path(conn, :index))
+        {:error, %Ecto.Changeset{} = changeset} ->
+          render(conn, "new.html", changeset: changeset) 
     end
   end
 
